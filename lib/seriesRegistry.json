@@ -1,0 +1,147 @@
+{
+  "구동사": {
+    "slug": "구동사",
+    "name": "구동사",
+    "themeColor": "teal",
+    "levelScheme": "per-episode-3tier",
+    "hubLayout": "level-filter-grid",
+    "description": "실전에서 자주 쓰는 구동사를 회차별로 딥다이브하는 시리즈",
+    "totalPlanned": 100,
+    "levels": [
+      "Basic",
+      "Intermediate",
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": true,
+      "examType": "vocab-matching",
+      "examTypeLabel": "단어-뜻 매칭 / 빈칸 구동사 고르기",
+      "hubLayout": "exam-set-grid"
+    }
+  },
+  "오답노트": {
+    "slug": "오답노트",
+    "name": "오답노트",
+    "themeColor": "red",
+    "levelScheme": "per-episode-3tier",
+    "hubLayout": "level-filter-grid",
+    "description": "헷갈리는 표현 쌍을 대조로 정리하는 시리즈",
+    "totalPlanned": 100,
+    "levels": [
+      "Basic",
+      "Intermediate",
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": true,
+      "examType": "multiple-choice",
+      "examTypeLabel": "헷갈리는 쌍 중 정답 고르기",
+      "hubLayout": "exam-set-grid"
+    }
+  },
+  "영작패턴": {
+    "slug": "영작패턴",
+    "name": "영작패턴",
+    "themeColor": "indigo",
+    "levelScheme": "per-episode-3tier",
+    "hubLayout": "level-filter-grid",
+    "description": "문장 전환 패턴을 공식으로 정리하는 시리즈",
+    "totalPlanned": 100,
+    "levels": [
+      "Basic",
+      "Intermediate",
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": true,
+      "examType": "sentence-transform",
+      "examTypeLabel": "주어진 문장을 패턴대로 전환하기",
+      "hubLayout": "exam-set-grid"
+    }
+  },
+  "관용표현": {
+    "slug": "관용표현",
+    "name": "관용표현",
+    "themeColor": "pink",
+    "levelScheme": "per-episode-3tier",
+    "hubLayout": "level-filter-grid",
+    "description": "상황별 원어민 표현을 대화로 정리하는 시리즈",
+    "totalPlanned": 100,
+    "levels": [
+      "Basic",
+      "Intermediate",
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": true,
+      "examType": "dialogue-completion",
+      "examTypeLabel": "대화 빈칸에 자연스러운 표현 채우기",
+      "hubLayout": "exam-set-grid"
+    }
+  },
+  "수능어법유형": {
+    "slug": "수능어법유형",
+    "name": "수능어법유형",
+    "themeColor": "gold",
+    "levelScheme": "per-episode-3tier",
+    "hubLayout": "level-filter-grid",
+    "description": "수능·평가원 모의고사 빈출 어법 함정 유형을 회차별로 정리하는 시리즈",
+    "totalPlanned": 100,
+    "levels": [
+      "Basic",
+      "Intermediate",
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": true,
+      "examType": "reading-comprehension",
+      "examTypeLabel": "지문 속 어법 오류 찾기 (RC형)",
+      "hubLayout": "exam-set-grid"
+    }
+  },
+  "초등영문법": {
+    "slug": "초등영문법",
+    "name": "초등영문법",
+    "themeColor": "navy",
+    "levelScheme": "sequential-tier",
+    "hubLayout": "curriculum-progress",
+    "description": "초등 눈높이 기초 문법을 순서대로 쌓아가는 30회차 커리큘럼",
+    "totalPlanned": 30,
+    "levels": [
+      "Basic"
+    ],
+    "examConfig": {
+      "enabled": false
+    }
+  },
+  "중등영문법": {
+    "slug": "중등영문법",
+    "name": "중등영문법",
+    "themeColor": "navy",
+    "levelScheme": "sequential-tier",
+    "hubLayout": "curriculum-progress",
+    "description": "중등 수준 문법을 순서대로 쌓아가는 40회차 커리큘럼",
+    "totalPlanned": 40,
+    "levels": [
+      "Intermediate"
+    ],
+    "examConfig": {
+      "enabled": false
+    }
+  },
+  "고급영문법": {
+    "slug": "고급영문법",
+    "name": "고급영문법",
+    "themeColor": "navy",
+    "levelScheme": "sequential-tier",
+    "hubLayout": "curriculum-progress",
+    "description": "고급 수준 문법을 순서대로 쌓아가는 30회차 커리큘럼",
+    "totalPlanned": 30,
+    "levels": [
+      "Advanced"
+    ],
+    "examConfig": {
+      "enabled": false
+    }
+  }
+}

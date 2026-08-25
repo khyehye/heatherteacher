@@ -1,0 +1,10 @@
+[
+  {
+    "id": "rc1",
+    "passage": "Many scientists believe that climate change is one of the most serious issues that ① face the world today. Sea levels, ② which has been rising steadily, threaten coastal communities. Governments ③ are urged to take immediate action, while individuals can also ④ contribute by reducing waste. Ultimately, protecting the environment ⑤ requires cooperation among all nations.",
+    "options": ["① face", "② which has been rising steadily", "③ are urged to take", "④ contribute", "⑤ requires"],
+    "wrongIndex": 1,
+    "explanation": "선행사 Sea levels(복수)를 받는 관계대명사절의 동사이므로 has가 아니라 have가 되어야 합니다 (which have been rising steadily). 나머지는 모두 올바른 표현입니다.",
+    "sourceEpisode": 387
+  }
+]

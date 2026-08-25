@@ -1,0 +1,57 @@
+{
+  "구동사-basic-01": {
+    "examId": "구동사-basic-01",
+    "title": "구동사 Basic 모아풀기 1회",
+    "seriesSlug": "구동사",
+    "level": "Basic",
+    "examType": "vocab-matching",
+    "questionCount": 5,
+    "sourceEpisodes": [102, 105, 108, 111, 114],
+    "questionFile": "exams/구동사/basic-01.json",
+    "status": "published"
+  },
+  "오답노트-basic-01": {
+    "examId": "오답노트-basic-01",
+    "title": "오답노트 Basic 모아풀기 1회",
+    "seriesSlug": "오답노트",
+    "level": "Basic",
+    "examType": "multiple-choice",
+    "questionCount": 5,
+    "sourceEpisodes": [203, 207, 211, 214, 218],
+    "questionFile": "exams/오답노트/basic-01.json",
+    "status": "published"
+  },
+  "영작패턴-basic-01": {
+    "examId": "영작패턴-basic-01",
+    "title": "영작패턴 Basic 모아풀기 1회",
+    "seriesSlug": "영작패턴",
+    "level": "Basic",
+    "examType": "sentence-transform",
+    "questionCount": 3,
+    "sourceEpisodes": [305, 308, 312],
+    "questionFile": "exams/영작패턴/basic-01.json",
+    "status": "published"
+  },
+  "관용표현-basic-01": {
+    "examId": "관용표현-basic-01",
+    "title": "관용표현 Basic 모아풀기 1회",
+    "seriesSlug": "관용표현",
+    "level": "Basic",
+    "examType": "dialogue-completion",
+    "questionCount": 3,
+    "sourceEpisodes": [405, 409, 413],
+    "questionFile": "exams/관용표현/basic-01.json",
+    "status": "published"
+  },
+  "수능어법유형-advanced-01": {
+    "examId": "수능어법유형-advanced-01",
+    "title": "수능어법유형 Advanced 모아풀기 1회",
+    "seriesSlug": "수능어법유형",
+    "level": "Advanced",
+    "examType": "reading-comprehension",
+    "questionCount": 1,
+    "sourceEpisodes": [387],
+    "questionFile": "exams/수능어법유형/advanced-01.json",
+    "status": "published"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mc1",
+    "prompt": "The rain didn't ___ our plans much.",
+    "options": ["affect", "effect", "effects", "affects"],
+    "correctIndex": 0,
+    "explanation": "affect(동사: ~에 영향을 주다) vs effect(명사: 영향, 결과). 문장에서 동사 자리이므로 affect가 맞습니다.",
+    "sourceEpisode": 203
+  },
+  {
+    "id": "mc2",
+    "prompt": "Can you ___ me your pen for a second?",
+    "options": ["borrow", "lend", "loan", "rent"],
+    "correctIndex": 1,
+    "explanation": "borrow(빌려오다, 내가 주체) vs lend(빌려주다, 상대가 주체). 상대에게 빌려달라고 요청하는 상황이므로 lend가 맞습니다.",
+    "sourceEpisode": 207
+  },
+  {
+    "id": "mc3",
+    "prompt": "The dog wagged ___ tail happily.",
+    "options": ["it's", "its", "its'", "their"],
+    "correctIndex": 1,
+    "explanation": "it's(it is의 축약형) vs its(소유격). 명사 tail을 수식하는 소유격이 필요하므로 its가 맞습니다.",
+    "sourceEpisode": 211
+  },
+  {
+    "id": "mc4",
+    "prompt": "There are ___ apples in the basket than yesterday.",
+    "options": ["less", "fewer", "lesser", "few"],
+    "correctIndex": 1,
+    "explanation": "less(셀 수 없는 명사) vs fewer(셀 수 있는 명사). apples는 셀 수 있는 명사이므로 fewer가 맞습니다.",
+    "sourceEpisode": 214
+  },
+  {
+    "id": "mc5",
+    "prompt": "She ___ me an interesting story yesterday.",
+    "options": ["said", "told", "spoke", "talked"],
+    "correctIndex": 1,
+    "explanation": "say는 목적어(사람)를 바로 취하지 않고, tell은 '사람에게 말하다'의 4형식 구조로 쓰입니다. told me a story가 맞습니다.",
+    "sourceEpisode": 218
+  }
+]

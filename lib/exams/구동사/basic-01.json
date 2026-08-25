@@ -1,0 +1,37 @@
+[
+  {
+    "id": "vm1",
+    "prompt": "give up",
+    "options": ["포기하다", "돌보다", "연기하다", "우연히 만나다"],
+    "correctIndex": 0,
+    "sourceEpisode": 102
+  },
+  {
+    "id": "vm2",
+    "prompt": "look after",
+    "options": ["조사하다", "돌보다", "찾아보다", "기대하다"],
+    "correctIndex": 1,
+    "sourceEpisode": 105
+  },
+  {
+    "id": "vm3",
+    "prompt": "put off",
+    "options": ["끄다", "제출하다", "연기하다", "벗다"],
+    "correctIndex": 2,
+    "sourceEpisode": 108
+  },
+  {
+    "id": "vm4",
+    "prompt": "take after",
+    "options": ["뒤쫓다", "떠맡다", "닮다", "감수하다"],
+    "correctIndex": 2,
+    "sourceEpisode": 111
+  },
+  {
+    "id": "vm5",
+    "prompt": "run into",
+    "options": ["우연히 만나다", "달려들다", "부딪히다", "도망치다"],
+    "correctIndex": 0,
+    "sourceEpisode": 114
+  }
+]

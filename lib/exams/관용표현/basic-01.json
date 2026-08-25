@@ -1,0 +1,37 @@
+[
+  {
+    "id": "dc1",
+    "dialogue": [
+      { "speaker": "A", "text": "I heard you got the promotion!" },
+      { "speaker": "B", "text": "Yeah, ___!" }
+    ],
+    "options": ["I can't believe my ears", "break a leg", "it's raining cats and dogs", "long time no see"],
+    "correctIndex": 0,
+    "explanation": "'I can't believe my ears'는 믿기지 않을 만큼 좋은 소식을 들었을 때 쓰는 표현입니다.",
+    "sourceEpisode": 405
+  },
+  {
+    "id": "dc2",
+    "dialogue": [
+      { "speaker": "A", "text": "Are you nervous about the interview tomorrow?" },
+      { "speaker": "B", "text": "A bit. Any tips?" },
+      { "speaker": "A", "text": "Just relax and ___!" }
+    ],
+    "options": ["break a leg", "hit the sack", "spill the beans", "under the weather"],
+    "correctIndex": 0,
+    "explanation": "'break a leg'는 무대·시험·면접 등을 앞둔 사람에게 건네는 '행운을 빌어'라는 뜻의 관용표현입니다.",
+    "sourceEpisode": 409
+  },
+  {
+    "id": "dc3",
+    "dialogue": [
+      { "speaker": "A", "text": "Can you keep a secret?" },
+      { "speaker": "B", "text": "Sure, my lips are sealed." },
+      { "speaker": "A", "text": "Okay, don't ___ about this to anyone." }
+    ],
+    "options": ["spill the beans", "hit the books", "break the ice", "catch some Z's"],
+    "correctIndex": 0,
+    "explanation": "'spill the beans'는 '비밀을 누설하다'라는 뜻의 관용표현입니다.",
+    "sourceEpisode": 413
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "st1",
+    "originalSentence": "I don't have money, so I can't buy it.",
+    "instruction": "가정법 과거로 전환하시오 (현재 사실의 반대를 가정)",
+    "options": [
+      "If I have money, I can buy it.",
+      "If I had money, I could buy it.",
+      "If I had had money, I could have bought it.",
+      "If I have had money, I could buy it."
+    ],
+    "correctIndex": 1,
+    "explanation": "현재 사실의 반대 가정이므로 If + 주어 + 동사 과거형, 주절은 could + 동사원형이 옵니다.",
+    "sourceEpisode": 305
+  },
+  {
+    "id": "st2",
+    "originalSentence": "She didn't study hard, so she failed the exam.",
+    "instruction": "가정법 과거완료로 전환하시오 (과거 사실의 반대를 가정)",
+    "options": [
+      "If she studied hard, she would pass the exam.",
+      "If she had studied hard, she would have passed the exam.",
+      "If she had studied hard, she would pass the exam.",
+      "If she has studied hard, she would have passed the exam."
+    ],
+    "correctIndex": 1,
+    "explanation": "과거 사실의 반대 가정이므로 If + 주어 + had p.p., 주절은 would have p.p.가 옵니다.",
+    "sourceEpisode": 308
+  },
+  {
+    "id": "st3",
+    "originalSentence": "He is not rich, so he can't buy the house.",
+    "instruction": "가정법 과거로 전환하시오",
+    "options": [
+      "If he were rich, he could buy the house.",
+      "If he was rich, he could buy the house.",
+      "If he is rich, he can buy the house.",
+      "If he had been rich, he could have bought the house."
+    ],
+    "correctIndex": 0,
+    "explanation": "가정법 과거에서 be동사는 인칭·수와 상관없이 were를 쓰는 것이 표준 문어체 규칙입니다.",
+    "sourceEpisode": 312
+  }
+]

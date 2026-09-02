@@ -1,13 +1,14 @@
 import Link from "next/link";
 import examSets from "@/lib/examSets.json";
 import { seriesCode } from "@/lib/seriesCode";
+import BackLink from "@/components/BackLink";
 
 export default function ExamListPage() {
   const sets = Object.values(examSets);
 
   return (
     <main className="container">
-      <Link href="/" className="back-link">홈</Link>
+      <BackLink label="홈" />
       <h1 className="page-title diagram-underline" style={{ margin: "16px 0 8px" }}>시험보기</h1>
       <p className="muted" style={{ fontSize: 13, marginBottom: 32 }}>
         트랙별로 쌓인 회차를 모아 실전처럼 풀어보는 시험 세트예요.

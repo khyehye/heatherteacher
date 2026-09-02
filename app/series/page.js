@@ -2,6 +2,7 @@ import Link from "next/link";
 import registry from "@/lib/seriesRegistry.json";
 import episodes from "@/lib/episodes.json";
 import { seriesCode } from "@/lib/seriesCode";
+import BackLink from "@/components/BackLink";
 
 export default function SeriesListPage() {
   const episodeList = Object.values(episodes);
@@ -26,7 +27,7 @@ export default function SeriesListPage() {
 
   return (
     <main className="container">
-      <Link href="/" className="back-link">홈</Link>
+      <BackLink label="홈" />
       <h1 className="page-title diagram-underline" style={{ margin: "12px 0 32px" }}>시리즈 전체보기</h1>
 
       <p className="eyebrow" style={{ marginBottom: 12 }}>101–600 · 5 tracks</p>

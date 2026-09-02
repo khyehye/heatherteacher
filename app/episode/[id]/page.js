@@ -5,6 +5,7 @@ import { seriesCode } from "@/lib/seriesCode";
 import { slideImageUrl } from "@/lib/themes";
 import { getEpisodeContentHtml } from "@/lib/getContent";
 import EpisodeCarousel from "@/components/EpisodeCarousel";
+import BackLink from "@/components/BackLink";
 
 export default async function EpisodePage({ params }) {
   const episode = episodes[params.id];
@@ -21,9 +22,7 @@ export default async function EpisodePage({ params }) {
 
   return (
     <main className="container">
-      <Link href={`/series/${encodeURIComponent(episode.seriesSlug)}`} className="back-link">
-        {episode.seriesSlug}
-      </Link>
+      <BackLink label={episode.seriesSlug} />
 
       <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
         <span className="tag-code">{seriesCode(episode.seriesSlug)}</span>

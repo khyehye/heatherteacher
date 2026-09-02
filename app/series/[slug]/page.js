@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import registry from "@/lib/seriesRegistry.json";
 import episodes from "@/lib/episodes.json";
 import { seriesCode } from "@/lib/seriesCode";
+import BackLink from "@/components/BackLink";
 
 export default function SeriesHubPage({ params, searchParams }) {
   const slug = decodeURIComponent(params.slug);
@@ -20,7 +21,7 @@ export default function SeriesHubPage({ params, searchParams }) {
 
   return (
     <main className="container">
-      <Link href="/series" className="back-link">시리즈 전체보기</Link>
+      <BackLink label="시리즈 전체보기" />
       <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
         <span className="tag-code">{seriesCode(slug)}</span>
       </div>

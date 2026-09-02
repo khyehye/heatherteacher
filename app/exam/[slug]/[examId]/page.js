@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import examSets from "@/lib/examSets.json";
 import { seriesCode } from "@/lib/seriesCode";
+import BackLink from "@/components/BackLink";
 import MultipleChoiceQuiz from "@/components/MultipleChoiceQuiz";
 import SentenceTransformQuiz from "@/components/SentenceTransformQuiz";
 import DialogueCompletionQuiz from "@/components/DialogueCompletionQuiz";
@@ -28,7 +28,7 @@ export default function ExamTakePage({ params }) {
 
   return (
     <main className="container">
-      <Link href="/exam" className="back-link">시험보기</Link>
+      <BackLink label="시험보기" />
       <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
         <span className="tag-code">{seriesCode(examSet.seriesSlug)}</span>
         <span className="tag-label">{examSet.level}</span>

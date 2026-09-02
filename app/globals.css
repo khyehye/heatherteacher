@@ -105,7 +105,24 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .index-title { font-size: 15px; font-weight: 500; flex: 1; }
 .index-meta { font-family: var(--mono); font-size: 11px; color: var(--muted); white-space: nowrap; }
 
-/* ---- series grid (home / series listing) ---- */
+/* ---- home hub cards (시리즈 / 테스트) ---- */
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+.hub-cell {
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding: 32px 24px;
+}
+.hub-cell:hover { background: var(--paper-soft); }
+.hub-title { font-size: 22px; font-weight: 700; margin: 0 0 10px; }
+.hub-desc { font-size: 13px; color: var(--muted); margin: 0 0 16px; line-height: 1.6; }
+.hub-count { font-family: var(--mono); font-size: 11px; color: var(--ink-soft); margin: 0; }
+
+/* ---- series grid (series listing page) ---- */
 .series-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0; border-top: 1px solid var(--ink); border-left: 1px solid var(--ink); }
 .series-cell {
   border-right: 1px solid var(--ink);

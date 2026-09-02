@@ -19,10 +19,10 @@ export default function SentenceTransformQuiz({ questions }) {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
-          <div key={q.id} className="card" style={{ marginBottom: 12 }}>
+          <div key={q.id} className="entry-card">
             <p className="muted" style={{ fontSize: 12, marginBottom: 4 }}>원문</p>
             <p style={{ fontSize: 15, marginBottom: 6 }}>{q.originalSentence}</p>
-            <p style={{ fontSize: 13, color: "#5B4FE8", marginBottom: 10 }}>{q.instruction}</p>
+            <p style={{ fontSize: 13, fontFamily: "var(--mono)", color: "var(--ink-soft)", marginBottom: 10 }}>{q.instruction}</p>
             {q.options.map((opt, i) => {
               let cls = "opt";
               if (done && i === q.correctIndex) cls += " correct";

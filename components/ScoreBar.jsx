@@ -2,7 +2,7 @@
 
 export default function ScoreBar({ total, answered, correct }) {
   return (
-    <div className="card" style={{ marginBottom: 16, display: "flex", justifyContent: "space-between", fontSize: 14 }}>
+    <div className="score-bar">
       <span>{answered} / {total} 풀이</span>
       <span>정답 {correct}개</span>
     </div>

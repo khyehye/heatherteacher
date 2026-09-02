@@ -21,7 +21,7 @@ export default function MultipleChoiceQuiz({ questions }) {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
-          <div key={q.id} className="card" style={{ marginBottom: 12 }}>
+          <div key={q.id} className="entry-card">
             <p style={{ fontSize: 15, marginBottom: 10 }}>{q.prompt}</p>
             {q.options.map((opt, i) => {
               let cls = "opt";

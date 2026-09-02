@@ -19,7 +19,7 @@ export default function ReadingComprehensionQuiz({ questions }) {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
-          <div key={q.id} className="card" style={{ marginBottom: 12 }}>
+          <div key={q.id} className="entry-card">
             <p className="muted" style={{ fontSize: 12, marginBottom: 8 }}>
               다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?
             </p>

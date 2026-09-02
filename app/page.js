@@ -1,48 +1,43 @@
 import Link from "next/link";
 import registry from "@/lib/seriesRegistry.json";
 import episodes from "@/lib/episodes.json";
-import { themeColor } from "@/lib/themes";
+import { seriesCode } from "@/lib/seriesCode";
 
 export default function HomePage() {
   const episodeList = Object.values(episodes);
   const published = episodeList.filter((e) => e.status === "published");
-  const recent = [...published].sort((a, b) => b.globalId - a.globalId).slice(0, 5);
+  const recent = [...published].sort((a, b) => b.globalId - a.globalId).slice(0, 6);
 
   return (
     <main className="container">
-      <h1 style={{ fontSize: 26, marginBottom: 4 }}>문법카드뉴스</h1>
-      <p className="muted" style={{ marginBottom: 28 }}>
-        @heather._.teacher · {episodeList.length}개 회차 등록 · {published.length}개 공개
+      <p className="eyebrow" style={{ marginBottom: 8 }}>@heather._.teacher</p>
+      <h1 className="page-title diagram-underline">문법카드뉴스</h1>
+      <p className="muted" style={{ fontSize: 13, margin: "16px 0 40px", fontFamily: "var(--mono)" }}>
+        {episodeList.length} REGISTERED · {published.length} PUBLISHED
       </p>
 
-      <h2 style={{ fontSize: 18, marginBottom: 12 }}>시리즈</h2>
-      <div className="grid" style={{ marginBottom: 36 }}>
+      <p className="eyebrow" style={{ marginBottom: 12 }}>Series</p>
+      <div className="series-grid" style={{ marginBottom: 48 }}>
         {Object.values(registry).map((s) => {
           const count = episodeList.filter((e) => e.seriesSlug === s.slug).length;
           return (
-            <Link key={s.slug} href={`/series/${encodeURIComponent(s.slug)}`} className="card">
-              <span className="badge" style={{ background: themeColor(s.themeColor) }}>
-                {s.name}
-              </span>
-              <p style={{ fontSize: 13, margin: "10px 0 0" }} className="muted">
-                {s.description}
-              </p>
-              <p style={{ fontSize: 12, margin: "8px 0 0" }} className="muted">
-                {count} / {s.totalPlanned}회차
-              </p>
+            <Link key={s.slug} href={`/series/${encodeURIComponent(s.slug)}`} className="series-cell">
+              <div className="tag-code">{seriesCode(s.slug)}</div>
+              <p className="name">{s.name}</p>
+              <p className="desc">{s.description}</p>
+              <p className="count">{count} / {s.totalPlanned}</p>
             </Link>
           );
         })}
       </div>
 
-      <h2 style={{ fontSize: 18, marginBottom: 12 }}>최근 공개된 회차</h2>
-      <div className="card">
+      <p className="eyebrow" style={{ marginBottom: 12 }}>Recent</p>
+      <div className="index-list">
         {recent.map((e) => (
-          <Link key={e.globalId} href={`/episode/${e.globalId}`} className="related-item">
-            <span>
-              {e.globalId}회차 · {e.title}
-            </span>
-            <span className="muted">{e.seriesSlug}</span>
+          <Link key={e.globalId} href={`/episode/${e.globalId}`} className="index-row">
+            <span className="index-num">{String(e.globalId).padStart(3, "0")}</span>
+            <span className="index-title">{e.title}</span>
+            <span className="index-meta">{seriesCode(e.seriesSlug)}</span>
           </Link>
         ))}
       </div>

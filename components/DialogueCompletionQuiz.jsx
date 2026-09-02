@@ -19,7 +19,7 @@ export default function DialogueCompletionQuiz({ questions }) {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
-          <div key={q.id} className="card" style={{ marginBottom: 12 }}>
+          <div key={q.id} className="entry-card">
             <div style={{ marginBottom: 12 }}>
               {q.dialogue.map((line, i) => {
                 const isBlankLine = line.text.includes("___");
@@ -36,9 +36,11 @@ export default function DialogueCompletionQuiz({ questions }) {
                   >
                     <span
                       style={{
-                        background: line.speaker === "B" ? "#EEEDFE" : "#f1f1f1",
-                        borderRadius: 10,
-                        padding: "6px 12px",
+                        background: line.speaker === "B" ? "var(--ink)" : "var(--paper)",
+                        color: line.speaker === "B" ? "var(--paper)" : "var(--ink)",
+                        border: line.speaker === "B" ? "none" : "1px solid var(--ink)",
+                        borderRadius: 0,
+                        padding: "8px 14px",
                         fontSize: 14,
                         maxWidth: "80%"
                       }}

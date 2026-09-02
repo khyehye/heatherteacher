@@ -3,8 +3,7 @@ import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import examSets from "@/lib/examSets.json";
-import registry from "@/lib/seriesRegistry.json";
-import { themeColor } from "@/lib/themes";
+import { seriesCode } from "@/lib/seriesCode";
 import MultipleChoiceQuiz from "@/components/MultipleChoiceQuiz";
 import SentenceTransformQuiz from "@/components/SentenceTransformQuiz";
 import DialogueCompletionQuiz from "@/components/DialogueCompletionQuiz";
@@ -25,21 +24,16 @@ export default function ExamTakePage({ params }) {
 
   const filePath = path.join(process.cwd(), "lib", examSet.questionFile);
   const questions = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  const series = registry[examSet.seriesSlug];
   const QuizComponent = COMPONENT_BY_TYPE[examSet.examType];
 
   return (
     <main className="container">
-      <Link href="/exam" className="muted" style={{ fontSize: 13 }}>
-        ← 시험보기
-      </Link>
-      <div style={{ display: "flex", alignItems: "center", gap: 8, margin: "12px 0 6px" }}>
-        <span className="badge" style={{ background: themeColor(series?.themeColor) }}>
-          {examSet.seriesSlug}
-        </span>
-        <span className="muted" style={{ fontSize: 13 }}>{examSet.level}</span>
+      <Link href="/exam" className="back-link">시험보기</Link>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
+        <span className="tag-code">{seriesCode(examSet.seriesSlug)}</span>
+        <span className="tag-label">{examSet.level}</span>
       </div>
-      <h1 style={{ fontSize: 22, margin: "0 0 20px" }}>{examSet.title}</h1>
+      <h1 className="page-title diagram-underline" style={{ marginBottom: 28 }}>{examSet.title}</h1>
 
       {QuizComponent ? (
         <QuizComponent questions={questions} />

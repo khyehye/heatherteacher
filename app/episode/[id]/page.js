@@ -3,10 +3,17 @@ import { notFound } from "next/navigation";
 import episodes from "@/lib/episodes.json";
 import { seriesCode } from "@/lib/seriesCode";
 import { slideImageUrl } from "@/lib/themes";
+import { getEpisodeContentHtml } from "@/lib/getContent";
+import EpisodeCarousel from "@/components/EpisodeCarousel";
 
-export default function EpisodeImagePage({ params }) {
+export default async function EpisodePage({ params }) {
   const episode = episodes[params.id];
   if (!episode) notFound();
+
+  const images = Array.from({ length: episode.slideCount }, (_, i) =>
+    slideImageUrl(episode.imageFolder, i + 1)
+  );
+  const html = await getEpisodeContentHtml(episode.imageFolder);
 
   const relatedList = Object.values(episodes)
     .filter((e) => e.category === episode.category && e.globalId !== episode.globalId)
@@ -28,23 +35,19 @@ export default function EpisodeImagePage({ params }) {
         </span>
         {episode.title}
       </h1>
-      <p className="muted" style={{ fontSize: 13, margin: "10px 0 20px" }}>{episode.summary}</p>
+      <p className="muted" style={{ fontSize: 13, margin: "10px 0 28px" }}>{episode.summary}</p>
 
-      <div className="tab-row">
-        <Link href={`/episode/${episode.globalId}`} className="tab-item active">이미지</Link>
-        <Link href={`/episode/${episode.globalId}/note`} className="tab-item">텍스트</Link>
-      </div>
+      <EpisodeCarousel images={images} />
 
-      <div className="carousel">
-        {Array.from({ length: episode.slideCount }, (_, i) => i + 1).map((n) => (
-          <img
-            key={n}
-            src={slideImageUrl(episode.imageFolder, n)}
-            alt={`${episode.globalId}회차 슬라이드 ${n}`}
-            loading="lazy"
-          />
-        ))}
-      </div>
+      <hr className="rule-strong" style={{ margin: "36px 0 32px" }} />
+
+      {html ? (
+        <div className="note-section" dangerouslySetInnerHTML={{ __html: html }} />
+      ) : (
+        <p className="muted">
+          grammar 저장소의 {episode.imageFolder}/content.md 파일을 아직 찾을 수 없어요.
+        </p>
+      )}
 
       {relatedList.length > 0 && (
         <div style={{ marginTop: 40 }}>

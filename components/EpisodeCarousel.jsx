@@ -12,12 +12,12 @@ export default function EpisodeCarousel({ images }) {
   return (
     <div className="carousel-wrap">
       <div className="carousel-stage">
+        {total > 1 && (
+          <button className="carousel-arrow" onClick={prev} aria-label="이전 슬라이드">‹</button>
+        )}
         <img src={images[index]} alt={`슬라이드 ${index + 1}`} className="carousel-image" />
         {total > 1 && (
-          <>
-            <button className="carousel-arrow left" onClick={prev} aria-label="이전 슬라이드">‹</button>
-            <button className="carousel-arrow right" onClick={next} aria-label="다음 슬라이드">›</button>
-          </>
+          <button className="carousel-arrow" onClick={next} aria-label="다음 슬라이드">›</button>
         )}
       </div>
       {total > 1 && (

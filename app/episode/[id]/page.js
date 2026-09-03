@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import episodes from "@/lib/episodes.json";
+import registry from "@/lib/seriesRegistry.json";
 import { seriesCode } from "@/lib/seriesCode";
 import { slideImageUrl } from "@/lib/themes";
 import { getEpisodeContentHtml } from "@/lib/getContent";
@@ -9,48 +10,85 @@ import BackLink from "@/components/BackLink";
 
 export default async function EpisodePage({ params }) {
   const episode = episodes[params.id];
-  if (!episode) notFound();
+  if (!episode || episode.status !== "published") notFound();
 
   const images = Array.from({ length: episode.slideCount }, (_, i) =>
     slideImageUrl(episode.imageFolder, i + 1)
   );
-  const html = await getEpisodeContentHtml(episode.imageFolder);
+  const html = episode.contentFile
+    ? await getEpisodeContentHtml(episode.imageFolder)
+    : null;
+
+  const seriesEpisodes = Object.values(episodes)
+    .filter((e) => e.seriesSlug === episode.seriesSlug && e.status === "published")
+    .sort((a, b) => a.inSeriesNumber - b.inSeriesNumber);
+  const currentIndex = seriesEpisodes.findIndex((e) => e.globalId === episode.globalId);
+  const totalInSeries = registry[episode.seriesSlug]?.totalPlanned ?? seriesEpisodes.length;
+  const seriesPercent = Math.min(100, Math.round((episode.inSeriesNumber / totalInSeries) * 100));
+  const previousEpisode = currentIndex > 0 ? seriesEpisodes[currentIndex - 1] : null;
+  const nextEpisode = currentIndex >= 0 && currentIndex < seriesEpisodes.length - 1
+    ? seriesEpisodes[currentIndex + 1]
+    : null;
 
   const relatedList = Object.values(episodes)
-    .filter((e) => e.category === episode.category && e.globalId !== episode.globalId)
+    .filter((e) => e.status === "published" && e.category === episode.category && e.globalId !== episode.globalId)
     .slice(0, 3);
 
   return (
-    <main className="container">
+    <main className="container reading-container">
       <BackLink label={episode.seriesSlug} />
 
-      <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
-        <span className="tag-code">{seriesCode(episode.seriesSlug)}</span>
-        <span className="tag-label">{episode.level} · {episode.kind === "overview" ? "개관" : "상세"}</span>
+      <div className="episode-header">
+        <div className="episode-meta">
+          <span className="tag-code">{seriesCode(episode.seriesSlug)}</span>
+          <span>{episode.seriesSlug} · {episode.level} · {episode.kind === "overview" ? "개관" : "상세"}</span>
+        </div>
+        <span className="episode-number">{String(episode.globalId).padStart(3, "0")}</span>
       </div>
-      <h1 className="page-title" style={{ marginBottom: 4 }}>
-        <span style={{ fontFamily: "var(--mono)", fontSize: 15, color: "var(--muted)", marginRight: 8 }}>
-          No. {String(episode.globalId).padStart(3, "0")}
-        </span>
-        {episode.title}
-      </h1>
-      <p className="muted" style={{ fontSize: 13, margin: "10px 0 28px" }}>{episode.summary}</p>
+      <h1 className="episode-title">{episode.title}</h1>
+      <p className="episode-summary">{episode.summary}</p>
+
+      <div className="episode-position" aria-label={`${episode.seriesSlug} ${totalInSeries}회 중 ${episode.inSeriesNumber}회`}>
+        <div className="episode-position-label">
+          <span>{seriesCode(episode.seriesSlug)} 학습 위치</span>
+          <strong>{String(episode.inSeriesNumber).padStart(2, "0")} / {String(totalInSeries).padStart(2, "0")}</strong>
+        </div>
+        <div className="episode-position-bar"><span style={{ width: `${seriesPercent}%` }} /></div>
+      </div>
 
       <EpisodeCarousel images={images} />
 
-      <hr className="rule-strong" style={{ margin: "36px 0 32px" }} />
+      <hr className="rule-strong episode-rule" />
 
-      {html ? (
+      {html && (
         <div className="note-section" dangerouslySetInnerHTML={{ __html: html }} />
-      ) : (
-        <p className="muted">
-          grammar 저장소의 {episode.imageFolder}/content.md 파일을 아직 찾을 수 없어요.
-        </p>
+      )}
+
+      {(previousEpisode || nextEpisode) && (
+        <nav className="lesson-nav" aria-label="회차 이동">
+          {previousEpisode ? (
+            <Link href={`/episode/${previousEpisode.globalId}`} className="lesson-nav-item previous">
+              <span>← 이전 학습</span>
+              <strong>{previousEpisode.title}</strong>
+            </Link>
+          ) : <span />}
+          {nextEpisode ? (
+            <Link href={`/episode/${nextEpisode.globalId}`} className="lesson-nav-item next">
+              <span>다음 학습 →</span>
+              <strong>{nextEpisode.title}</strong>
+            </Link>
+          ) : <span />}
+        </nav>
       )}
 
       {relatedList.length > 0 && (
-        <div style={{ marginTop: 40 }}>
-          <p className="eyebrow" style={{ marginBottom: 4 }}>Related</p>
+        <div className="related-section">
+          <div className="section-heading compact">
+            <div>
+              <p className="eyebrow">Related</p>
+              <h2>함께 보면 좋은 카드</h2>
+            </div>
+          </div>
           <div className="index-list">
             {relatedList.map((e) => (
               <Link key={e.globalId} href={`/episode/${e.globalId}`} className="index-row">

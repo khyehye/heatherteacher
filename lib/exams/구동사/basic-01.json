@@ -1,37 +1,43 @@
 [
   {
-    "id": "vm1",
-    "prompt": "give up",
-    "options": ["포기하다", "돌보다", "연기하다", "우연히 만나다"],
-    "correctIndex": 0,
-    "sourceEpisode": 102
-  },
-  {
-    "id": "vm2",
-    "prompt": "look after",
-    "options": ["조사하다", "돌보다", "찾아보다", "기대하다"],
+    "id": "pv-b1-1",
+    "prompt": "It's already 8 o'clock. You need to ___ right now.",
+    "options": ["wake up", "get up", "put on", "take off"],
     "correctIndex": 1,
-    "sourceEpisode": 105
+    "explanation": "get up은 잠자리에서 실제로 일어나는 동작을 뜻해요.",
+    "sourceEpisode": 106
   },
   {
-    "id": "vm3",
-    "prompt": "put off",
-    "options": ["끄다", "제출하다", "연기하다", "벗다"],
-    "correctIndex": 2,
-    "sourceEpisode": 108
-  },
-  {
-    "id": "vm4",
-    "prompt": "take after",
-    "options": ["뒤쫓다", "떠맡다", "닮다", "감수하다"],
-    "correctIndex": 2,
-    "sourceEpisode": 111
-  },
-  {
-    "id": "vm5",
-    "prompt": "run into",
-    "options": ["우연히 만나다", "달려들다", "부딪히다", "도망치다"],
+    "id": "pv-b1-2",
+    "prompt": "I always ___ before my alarm rings.",
+    "options": ["wake up", "turn on", "take off", "put on"],
     "correctIndex": 0,
-    "sourceEpisode": 114
+    "explanation": "wake up은 잠에서 깨어나는 상태 변화를 말해요.",
+    "sourceEpisode": 121
+  },
+  {
+    "id": "pv-b1-3",
+    "prompt": "The jacket looks great. Please ___.",
+    "options": ["put on it", "put it on", "take it off", "turn it on"],
+    "correctIndex": 1,
+    "explanation": "목적어가 대명사일 때는 put과 on 사이에 놓아 put it on이라고 해요.",
+    "sourceEpisode": 136
+  },
+  {
+    "id": "pv-b1-4",
+    "prompt": "Your boots are muddy. Please ___ before you come in.",
+    "options": ["take them off", "take off them", "put them on", "turn them on"],
+    "correctIndex": 0,
+    "explanation": "take off의 목적어가 대명사일 때는 take them off 순서가 맞아요.",
+    "sourceEpisode": 151
+  },
+  {
+    "id": "pv-b1-5",
+    "prompt": "It's dark in here. Can you ___ the light?",
+    "options": ["turn on", "take off", "wake up", "get up"],
+    "correctIndex": 0,
+    "explanation": "전등이나 기기를 켤 때 turn on을 사용해요.",
+    "sourceEpisode": 166
   }
 ]
+

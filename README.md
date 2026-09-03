@@ -8,11 +8,11 @@ npm run dev
 http://localhost:3000 에서 확인
 
 ## 배포 전 꼭 해야 할 것
-1. `lib/themes.js`의 `IMAGE_BASE_URL`을 실제 이미지가 올라간 GitHub 저장소 jsDelivr 경로로 교체
-   예: `https://cdn.jsdelivr.net/gh/실제깃헙아이디/이미지저장소@main`
-2. `lib/episodes.json`에 나머지 회차들을 추가 (지금은 초등영문법 1~30회차 + 387회차만 샘플로 들어있음)
-3. `lib/content/{globalId}.md` 파일을 회차별로 채우기 (지금은 1, 2, 387회차만 샘플)
-4. `lib/exams/`에 트랙별 시험 세트를 추가하고 `lib/examSets.json`에 등록
+1. 카드뉴스 이미지는 `https://github.com/khyehye/cardnews/tree/main/images`에 `001`~`600` 폴더로 저장합니다.
+2. 이미지 저장소를 업데이트한 뒤 이 프로젝트에서 `npm run sync-episodes`를 실행합니다.
+3. 동기화 명령은 `lib/roadmap.json`의 600회차 정보를 기준으로 `lib/episodes.json`을 다시 만들고, 실제 이미지 폴더가 있는 회차만 공개합니다.
+4. 회차별 설명문이 필요하면 해당 이미지 폴더에 `content.md`를 추가합니다. 설명문이 없어도 카드뉴스는 정상 표시됩니다.
+5. `lib/exams/`에 트랙별 시험 세트를 추가하고 `lib/examSets.json`에 등록합니다.
 
 ## 배포
 GitHub에 push한 뒤 vercel.com에서 저장소 연결하면 자동 배포됩니다.

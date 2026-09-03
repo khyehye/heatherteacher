@@ -27,13 +27,14 @@ export default function ExamTakePage({ params }) {
   const QuizComponent = COMPONENT_BY_TYPE[examSet.examType];
 
   return (
-    <main className="container">
+    <main className="container reading-container exam-take-page">
       <BackLink label="시험보기" />
-      <div style={{ display: "flex", alignItems: "center", gap: 10, margin: "16px 0 6px" }}>
+      <div className="exam-take-meta">
         <span className="tag-code">{seriesCode(examSet.seriesSlug)}</span>
         <span className="tag-label">{examSet.level}</span>
       </div>
-      <h1 className="page-title diagram-underline" style={{ marginBottom: 28 }}>{examSet.title}</h1>
+      <h1 className="page-title">{examSet.title}</h1>
+      <p className="exam-take-description">{examSet.description} 답을 고르면 정답과 관련 회차가 바로 표시됩니다.</p>
 
       {QuizComponent ? (
         <QuizComponent questions={questions} />

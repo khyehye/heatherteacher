@@ -1,42 +1,43 @@
 [
   {
-    "id": "mc1",
-    "prompt": "The rain didn't ___ our plans much.",
-    "options": ["affect", "effect", "effects", "affects"],
-    "correctIndex": 0,
-    "explanation": "affect(동사: ~에 영향을 주다) vs effect(명사: 영향, 결과). 문장에서 동사 자리이므로 affect가 맞습니다.",
-    "sourceEpisode": 203
+    "id": "cn-b1-1",
+    "prompt": "My backpack is lighter ___ yours.",
+    "options": ["then", "than", "that", "them"],
+    "correctIndex": 1,
+    "explanation": "비교급 lighter 뒤에는 비교 대상을 잇는 than이 와요.",
+    "sourceEpisode": 118
   },
   {
-    "id": "mc2",
-    "prompt": "Can you ___ me your pen for a second?",
-    "options": ["borrow", "lend", "loan", "rent"],
+    "id": "cn-b1-2",
+    "prompt": "The tree lost ___ leaves in winter.",
+    "options": ["it's", "its", "it is", "its'"],
     "correctIndex": 1,
-    "explanation": "borrow(빌려오다, 내가 주체) vs lend(빌려주다, 상대가 주체). 상대에게 빌려달라고 요청하는 상황이므로 lend가 맞습니다.",
-    "sourceEpisode": 207
+    "explanation": "소유를 나타내는 its에는 아포스트로피를 쓰지 않아요.",
+    "sourceEpisode": 133
   },
   {
-    "id": "mc3",
-    "prompt": "The dog wagged ___ tail happily.",
-    "options": ["it's", "its", "its'", "their"],
+    "id": "cn-b1-3",
+    "prompt": "___ never too old to learn something new.",
+    "options": ["Your", "You're", "Yours", "Youre"],
     "correctIndex": 1,
-    "explanation": "it's(it is의 축약형) vs its(소유격). 명사 tail을 수식하는 소유격이 필요하므로 its가 맞습니다.",
-    "sourceEpisode": 211
+    "explanation": "You are를 줄인 You're가 문장의 주어와 동사가 됩니다.",
+    "sourceEpisode": 148
   },
   {
-    "id": "mc4",
-    "prompt": "There are ___ apples in the basket than yesterday.",
-    "options": ["less", "fewer", "lesser", "few"],
+    "id": "cn-b1-4",
+    "prompt": "This puzzle is ___ hard for me.",
+    "options": ["to", "too", "two", "tow"],
     "correctIndex": 1,
-    "explanation": "less(셀 수 없는 명사) vs fewer(셀 수 있는 명사). apples는 셀 수 있는 명사이므로 fewer가 맞습니다.",
-    "sourceEpisode": 214
+    "explanation": "‘너무’라는 뜻의 부사는 too예요.",
+    "sourceEpisode": 163
   },
   {
-    "id": "mc5",
-    "prompt": "She ___ me an interesting story yesterday.",
-    "options": ["said", "told", "spoke", "talked"],
+    "id": "cn-b1-5",
+    "prompt": "Could I ___ your calculator for a minute?",
+    "options": ["lend", "borrow", "give", "take"],
     "correctIndex": 1,
-    "explanation": "say는 목적어(사람)를 바로 취하지 않고, tell은 '사람에게 말하다'의 4형식 구조로 쓰입니다. told me a story가 맞습니다.",
-    "sourceEpisode": 218
+    "explanation": "내가 다른 사람에게서 빌리는 것이므로 borrow를 써요.",
+    "sourceEpisode": 178
   }
 ]
+

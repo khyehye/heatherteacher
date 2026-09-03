@@ -1,57 +1,63 @@
 {
   "구동사-basic-01": {
     "examId": "구동사-basic-01",
-    "title": "구동사 Basic 모아풀기 1회",
+    "title": "구동사 Basic 1회",
+    "description": "일상에서 가장 자주 쓰는 동작 구동사를 문장 속에서 구별해요.",
     "seriesSlug": "구동사",
     "level": "Basic",
-    "examType": "vocab-matching",
+    "examType": "multiple-choice",
     "questionCount": 5,
-    "sourceEpisodes": [102, 105, 108, 111, 114],
+    "sourceEpisodes": [106, 121, 136, 151, 166],
     "questionFile": "exams/구동사/basic-01.json",
     "status": "published"
   },
   "오답노트-basic-01": {
     "examId": "오답노트-basic-01",
-    "title": "오답노트 Basic 모아풀기 1회",
+    "title": "오답노트 Basic 1회",
+    "description": "모양과 소리가 비슷해 자주 헷갈리는 표현을 정확히 골라요.",
     "seriesSlug": "오답노트",
     "level": "Basic",
     "examType": "multiple-choice",
     "questionCount": 5,
-    "sourceEpisodes": [203, 207, 211, 214, 218],
+    "sourceEpisodes": [118, 133, 148, 163, 178],
     "questionFile": "exams/오답노트/basic-01.json",
     "status": "published"
   },
   "영작패턴-basic-01": {
     "examId": "영작패턴-basic-01",
-    "title": "영작패턴 Basic 모아풀기 1회",
+    "title": "영작패턴 Basic 1회",
+    "description": "기본 문장 구조부터 부정문·의문문·명령문까지 직접 바꿔 봐요.",
     "seriesSlug": "영작패턴",
     "level": "Basic",
     "examType": "sentence-transform",
-    "questionCount": 3,
-    "sourceEpisodes": [305, 308, 312],
+    "questionCount": 5,
+    "sourceEpisodes": [115, 130, 145, 160, 175],
     "questionFile": "exams/영작패턴/basic-01.json",
     "status": "published"
   },
   "관용표현-basic-01": {
     "examId": "관용표현-basic-01",
-    "title": "관용표현 Basic 모아풀기 1회",
+    "title": "관용표현 Basic 1회",
+    "description": "인사·식사·작별·사과 상황에 가장 자연스러운 표현을 골라요.",
     "seriesSlug": "관용표현",
     "level": "Basic",
     "examType": "dialogue-completion",
-    "questionCount": 3,
-    "sourceEpisodes": [405, 409, 413],
+    "questionCount": 5,
+    "sourceEpisodes": [112, 127, 142, 157, 172],
     "questionFile": "exams/관용표현/basic-01.json",
     "status": "published"
   },
-  "수능어법유형-advanced-01": {
-    "examId": "수능어법유형-advanced-01",
-    "title": "수능어법유형 Advanced 모아풀기 1회",
+  "수능어법유형-basic-01": {
+    "examId": "수능어법유형-basic-01",
+    "title": "수능어법유형 Basic 1회",
+    "description": "대명사·수 일치·3인칭 단수·과거형·부정문 오류를 점검해요.",
     "seriesSlug": "수능어법유형",
-    "level": "Advanced",
-    "examType": "reading-comprehension",
-    "questionCount": 1,
-    "sourceEpisodes": [387],
-    "questionFile": "exams/수능어법유형/advanced-01.json",
+    "level": "Basic",
+    "examType": "multiple-choice",
+    "questionCount": 5,
+    "sourceEpisodes": [109, 124, 139, 154, 169],
+    "questionFile": "exams/수능어법유형/basic-01.json",
     "status": "published"
   }
 }
+

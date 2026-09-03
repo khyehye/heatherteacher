@@ -94,8 +94,8 @@
     ],
     "examConfig": {
       "enabled": true,
-      "examType": "reading-comprehension",
-      "examTypeLabel": "지문 속 어법 오류 찾기 (RC형)",
+      "examType": "multiple-choice",
+      "examTypeLabel": "빈출 어법 오류와 정답 고르기",
       "hubLayout": "exam-set-grid"
     }
   },

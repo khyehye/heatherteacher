@@ -1,0 +1,43 @@
+[
+  {
+    "id": "gt-b1-1",
+    "prompt": "다음 중 어법상 옳은 문장을 고르세요.",
+    "options": ["Him and me went home.", "He and I went home.", "Me and him went home.", "He and me went home."],
+    "correctIndex": 1,
+    "explanation": "주어 자리에는 주격 대명사 He와 I를 써야 해요.",
+    "sourceEpisode": 109
+  },
+  {
+    "id": "gt-b1-2",
+    "prompt": "The pictures on the wall ___ beautiful.",
+    "options": ["is", "are", "was", "be"],
+    "correctIndex": 1,
+    "explanation": "주어 pictures가 복수이므로 are가 맞아요. on the wall은 수 일치에 영향을 주지 않아요.",
+    "sourceEpisode": 124
+  },
+  {
+    "id": "gt-b1-3",
+    "prompt": "My mother ___ dinner every evening.",
+    "options": ["cook", "cooks", "cooking", "to cook"],
+    "correctIndex": 1,
+    "explanation": "현재시제에서 3인칭 단수 주어 My mother 뒤 동사에는 -s를 붙여요.",
+    "sourceEpisode": 139
+  },
+  {
+    "id": "gt-b1-4",
+    "prompt": "다음 중 과거형이 바르게 쓰인 문장을 고르세요.",
+    "options": ["She comed home early.", "He telled me the truth.", "I took the wrong bus.", "They runned very fast."],
+    "correctIndex": 2,
+    "explanation": "take의 불규칙 과거형은 took이에요.",
+    "sourceEpisode": 154
+  },
+  {
+    "id": "gt-b1-5",
+    "prompt": "다음 문장의 밑줄 친 부분을 바르게 고치세요: She didn't wants to leave.",
+    "options": ["doesn't wanted", "didn't want", "not wanted", "didn't wanted"],
+    "correctIndex": 1,
+    "explanation": "didn't 뒤에는 동사원형 want가 와야 해요.",
+    "sourceEpisode": 169
+  }
+]
+

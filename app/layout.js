@@ -1,8 +1,13 @@
 import "./globals.css";
+import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 export const metadata = {
-  title: "문법카드뉴스",
-  description: "@heather._.teacher 문법카드뉴스 아카이브"
+  title: {
+    default: "문법카드뉴스 | Heather Teacher",
+    template: "%s | 문법카드뉴스"
+  },
+  description: "초등 기초부터 수능 어법까지, 한 장씩 쌓아가는 영문법"
 };
 
 export default function RootLayout({ children }) {
@@ -19,7 +24,11 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }

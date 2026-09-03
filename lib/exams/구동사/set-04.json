@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pv-31",
+    "prompt": "What time will you ___ home?",
+    "options": [
+      "turn on",
+      "put off",
+      "come back",
+      "give up"
+    ],
+    "correctIndex": 2,
+    "explanation": "come back은 원래 있던 곳으로 돌아오다는 뜻이에요.",
+    "sourceEpisode": 256
+  },
+  {
+    "id": "pv-32",
+    "prompt": "Jina and Tom decided to ___ last week.",
+    "options": [
+      "turn off",
+      "carry out",
+      "come back",
+      "break up"
+    ],
+    "correctIndex": 3,
+    "explanation": "break up은 연인 관계를 끝내다라는 뜻이에요.",
+    "sourceEpisode": 260
+  },
+  {
+    "id": "pv-33",
+    "prompt": "Fear should not ___ you from trying.",
+    "options": [
+      "hold back",
+      "looking for",
+      "bring up",
+      "called off"
+    ],
+    "correctIndex": 0,
+    "explanation": "hold back은 행동이나 발전을 막거나 억제하다는 뜻이에요.",
+    "sourceEpisode": 264
+  },
+  {
+    "id": "pv-34",
+    "prompt": "We often ___ for dinner on Fridays.",
+    "options": [
+      "Look at",
+      "go out",
+      "broke down",
+      "check in"
+    ],
+    "correctIndex": 1,
+    "explanation": "go out은 외출하거나 밖에서 시간을 보내다는 뜻이에요.",
+    "sourceEpisode": 271
+  },
+  {
+    "id": "pv-35",
+    "prompt": "They ___ the picnic because of the storm.",
+    "options": [
+      "looks after",
+      "break up",
+      "called off",
+      "get up"
+    ],
+    "correctIndex": 2,
+    "explanation": "call off는 예정된 행사를 취소하다는 뜻이에요.",
+    "sourceEpisode": 275
+  },
+  {
+    "id": "pv-36",
+    "prompt": "The movie didn't ___ my expectations.",
+    "options": [
+      "give up",
+      "called off",
+      "wake up",
+      "live up to"
+    ],
+    "correctIndex": 3,
+    "explanation": "live up to는 기대나 기준에 부응하다는 뜻이에요.",
+    "sourceEpisode": 279
+  },
+  {
+    "id": "pv-37",
+    "prompt": "___ the car carefully; traffic is heavy.",
+    "options": [
+      "Get in",
+      "come back",
+      "look down on",
+      "put on"
+    ],
+    "correctIndex": 0,
+    "explanation": "get in은 승용차나 택시에 타다는 뜻이에요.",
+    "sourceEpisode": 286
+  },
+  {
+    "id": "pv-38",
+    "prompt": "Guests must ___ at the front desk.",
+    "options": [
+      "go out",
+      "check in",
+      "find out",
+      "take off"
+    ],
+    "correctIndex": 1,
+    "explanation": "check in은 호텔이나 공항에서 도착 등록을 하다는 뜻이에요.",
+    "sourceEpisode": 290
+  },
+  {
+    "id": "pv-39",
+    "prompt": "You should never ___ people because of their jobs.",
+    "options": [
+      "Get in",
+      "look forward to",
+      "look down on",
+      "turn on"
+    ],
+    "correctIndex": 2,
+    "explanation": "look down on은 다른 사람을 얕보다는 뜻이에요.",
+    "sourceEpisode": 294
+  },
+  {
+    "id": "pv-40",
+    "prompt": "Please ___ and make yourself comfortable.",
+    "options": [
+      "get up",
+      "gets along with",
+      "turn off",
+      "sit down"
+    ],
+    "correctIndex": 3,
+    "explanation": "sit down은 서 있는 상태에서 앉다는 뜻이에요.",
+    "sourceEpisode": 301
+  }
+]

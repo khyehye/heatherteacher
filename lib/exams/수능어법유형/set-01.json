@@ -1,0 +1,132 @@
+[
+  {
+    "id": "gt-1",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      "Her helped I.",
+      "She helped me.",
+      "Me helped she.",
+      "She helped I."
+    ],
+    "correctIndex": 1,
+    "explanation": "주어 자리에는 She, 목적어 자리에는 me를 써요.",
+    "sourceEpisode": 109
+  },
+  {
+    "id": "gt-2",
+    "prompt": "I ___ this book last year.",
+    "options": [
+      "have read",
+      "read",
+      "have been reading",
+      "am reading"
+    ],
+    "correctIndex": 1,
+    "explanation": "명확한 과거 시점 last year가 있으므로 과거시제를 써요.",
+    "sourceEpisode": 113
+  },
+  {
+    "id": "gt-3",
+    "prompt": "This is the town ___ I was born.",
+    "options": [
+      "which",
+      "where",
+      "what",
+      "that place"
+    ],
+    "correctIndex": 1,
+    "explanation": "뒤 절이 완전하고 장소를 선행사로 하므로 관계부사 where가 맞아요.",
+    "sourceEpisode": 117
+  },
+  {
+    "id": "gt-4",
+    "prompt": "The students ___ in the classroom.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanation": "복수 주어 The students에는 are를 써요.",
+    "sourceEpisode": 124
+  },
+  {
+    "id": "gt-5",
+    "prompt": "The bridge ___ in 2010.",
+    "options": [
+      "built",
+      "was built",
+      "was build",
+      "is building"
+    ],
+    "correctIndex": 1,
+    "explanation": "과거에 건설된 것이므로 과거 수동태 was built가 맞아요.",
+    "sourceEpisode": 128
+  },
+  {
+    "id": "gt-6",
+    "prompt": "She not only sings well but also ___ beautifully.",
+    "options": [
+      "to dance",
+      "dances",
+      "dancing",
+      "dance was"
+    ],
+    "correctIndex": 1,
+    "explanation": "sings와 병렬을 이루도록 3인칭 단수 현재형 dances를 써요.",
+    "sourceEpisode": 132
+  },
+  {
+    "id": "gt-7",
+    "prompt": "My brother ___ soccer every Sunday.",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "is play"
+    ],
+    "correctIndex": 1,
+    "explanation": "3인칭 단수 현재 주어에는 동사에 -s를 붙여요.",
+    "sourceEpisode": 139
+  },
+  {
+    "id": "gt-8",
+    "prompt": "She enjoys ___ mystery novels.",
+    "options": [
+      "to read",
+      "reading",
+      "read",
+      "to reading"
+    ],
+    "correctIndex": 1,
+    "explanation": "enjoy는 목적어로 동명사를 취해요.",
+    "sourceEpisode": 143
+  },
+  {
+    "id": "gt-9",
+    "prompt": "The book ___ in simple English is easy to understand.",
+    "options": [
+      "writing",
+      "written",
+      "wrote",
+      "is writing"
+    ],
+    "correctIndex": 1,
+    "explanation": "책은 쓰이는 대상이므로 과거분사 written이 맞아요.",
+    "sourceEpisode": 147
+  },
+  {
+    "id": "gt-10",
+    "prompt": "Yesterday, he ___ a new backpack.",
+    "options": [
+      "buyed",
+      "bought",
+      "buys",
+      "has buy"
+    ],
+    "correctIndex": 1,
+    "explanation": "buy의 불규칙 과거형은 bought예요.",
+    "sourceEpisode": 154
+  }
+]

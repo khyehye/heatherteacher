@@ -1,0 +1,132 @@
+[
+  {
+    "id": "gt-31",
+    "prompt": "She answered the question ___.",
+    "options": [
+      "correct",
+      "correctly",
+      "correction",
+      "more correct answer"
+    ],
+    "correctIndex": 1,
+    "explanation": "동사 answered를 꾸미는 부사 correctly가 필요해요.",
+    "sourceEpisode": 259
+  },
+  {
+    "id": "gt-32",
+    "prompt": "I heard someone ___ my name.",
+    "options": [
+      "called",
+      "call",
+      "to calling",
+      "was call"
+    ],
+    "correctIndex": 1,
+    "explanation": "지각동사 heard 뒤 목적격보어로 동사원형을 쓸 수 있어요.",
+    "sourceEpisode": 263
+  },
+  {
+    "id": "gt-33",
+    "prompt": "Not all birds can fly means ___.",
+    "options": [
+      "No birds can fly.",
+      "Some birds cannot fly.",
+      "All birds cannot fly.",
+      "Birds never fly."
+    ],
+    "correctIndex": 1,
+    "explanation": "not all은 ‘모두가 그런 것은 아니다’라는 부분부정이에요.",
+    "sourceEpisode": 267
+  },
+  {
+    "id": "gt-34",
+    "prompt": "Choose the natural word order.",
+    "options": [
+      "She goes always to school early.",
+      "She always goes to school early.",
+      "Always she to school goes early.",
+      "She goes to always school early."
+    ],
+    "correctIndex": 1,
+    "explanation": "일반동사 문장에서 빈도부사는 보통 일반동사 앞에 와요.",
+    "sourceEpisode": 274
+  },
+  {
+    "id": "gt-35",
+    "prompt": "This soup tastes ___.",
+    "options": [
+      "well",
+      "good",
+      "deliciously taste",
+      "nicely flavor"
+    ],
+    "correctIndex": 1,
+    "explanation": "감각동사 tastes 뒤에는 주어의 상태를 설명하는 형용사 good이 와요.",
+    "sourceEpisode": 278
+  },
+  {
+    "id": "gt-36",
+    "prompt": "The heavy snow ___ us from leaving home.",
+    "options": [
+      "prevented to",
+      "prevented",
+      "made to",
+      "let from"
+    ],
+    "correctIndex": 1,
+    "explanation": "prevent + 목적어 + from -ing 구조에서 prevented us from leaving이 맞아요.",
+    "sourceEpisode": 282
+  },
+  {
+    "id": "gt-37",
+    "prompt": "The meeting starts ___ 3 p.m.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "by on"
+    ],
+    "correctIndex": 1,
+    "explanation": "정확한 시각 앞에는 전치사 at을 써요.",
+    "sourceEpisode": 289
+  },
+  {
+    "id": "gt-38",
+    "prompt": "This bag is ___ that one.",
+    "options": [
+      "twice as expensive than",
+      "twice as expensive as",
+      "two times expensive as",
+      "twice more expensive as"
+    ],
+    "correctIndex": 1,
+    "explanation": "배수 비교는 배수사 + as + 원급 + as 구조를 써요.",
+    "sourceEpisode": 293
+  },
+  {
+    "id": "gt-39",
+    "prompt": "He looks exhausted. He ___ all night.",
+    "options": [
+      "must work",
+      "must have worked",
+      "should worked",
+      "can have work"
+    ],
+    "correctIndex": 1,
+    "explanation": "과거 일에 대한 강한 추측은 must have + p.p.로 나타내요.",
+    "sourceEpisode": 297
+  },
+  {
+    "id": "gt-40",
+    "prompt": "I wanted to go, ___ I was too tired.",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "so that"
+    ],
+    "correctIndex": 1,
+    "explanation": "서로 대조되는 내용을 연결할 때 but을 써요.",
+    "sourceEpisode": 304
+  }
+]

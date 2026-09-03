@@ -1,0 +1,142 @@
+[
+  {
+    "id": "wp-11",
+    "originalSentence": "You like pizza.",
+    "instruction": "Yes/No 의문문으로 바꾸기",
+    "options": [
+      "Are you like pizza?",
+      "Does you like pizza?",
+      "Do you like pizza?",
+      "You do like pizza?"
+    ],
+    "correctIndex": 2,
+    "explanation": "일반동사 현재 의문문은 Do + 주어 + 동사원형 순서예요.",
+    "sourceEpisode": 160
+  },
+  {
+    "id": "wp-12",
+    "originalSentence": "Tom asked me, “Where do you live?”",
+    "instruction": "간접의문문으로 바꾸기",
+    "options": [
+      "Tom asked me where did I live.",
+      "Tom asked me where do you live.",
+      "Tom asked where I did live me.",
+      "Tom asked me where I lived."
+    ],
+    "correctIndex": 3,
+    "explanation": "간접의문문은 의문사 뒤에 주어+동사의 평서문 어순을 써요.",
+    "sourceEpisode": 164
+  },
+  {
+    "id": "wp-13",
+    "originalSentence": "You may choose anything. It will make you happy.",
+    "instruction": "whatever를 사용해 합치기",
+    "options": [
+      "Choose whatever makes you happy.",
+      "Choose whatever it makes you happy.",
+      "Choose what ever makes happy you.",
+      "Choose whichever does make you happy anything."
+    ],
+    "correctIndex": 0,
+    "explanation": "whatever는 ‘무엇이든지’라는 뜻으로 명사절을 이끌어요.",
+    "sourceEpisode": 168
+  },
+  {
+    "id": "wp-14",
+    "originalSentence": "You should open the window.",
+    "instruction": "명령문으로 바꾸기",
+    "options": [
+      "You open the window.",
+      "Open the window.",
+      "Opening the window.",
+      "To open the window."
+    ],
+    "correctIndex": 1,
+    "explanation": "긍정 명령문은 주어를 생략하고 동사원형으로 시작해요.",
+    "sourceEpisode": 175
+  },
+  {
+    "id": "wp-15",
+    "originalSentence": "Dad said to me, “Clean your room.”",
+    "instruction": "간접화법으로 바꾸기",
+    "options": [
+      "Dad said me clean my room.",
+      "Dad told that I cleaned my room.",
+      "Dad told me to clean my room.",
+      "Dad told me cleaning my room."
+    ],
+    "correctIndex": 2,
+    "explanation": "명령문의 간접화법은 tell + 목적어 + to부정사를 써요.",
+    "sourceEpisode": 179
+  },
+  {
+    "id": "wp-16",
+    "originalSentence": "Will she come? I don't know.",
+    "instruction": "whether를 사용해 합치기",
+    "options": [
+      "I don't know whether will she come.",
+      "I don't know that will she come.",
+      "I don't know whether does she come.",
+      "I don't know whether she will come."
+    ],
+    "correctIndex": 3,
+    "explanation": "whether가 이끄는 명사절 안에서는 평서문 어순을 써요.",
+    "sourceEpisode": 183
+  },
+  {
+    "id": "wp-17",
+    "originalSentence": "The flower is very beautiful.",
+    "instruction": "What 감탄문으로 바꾸기",
+    "options": [
+      "What a beautiful flower it is!",
+      "What beautiful the flower is!",
+      "How a beautiful flower it is!",
+      "What a flower beautiful it is!"
+    ],
+    "correctIndex": 0,
+    "explanation": "What 감탄문은 What + a/an + 형용사 + 단수명사 + 주어 + 동사 순서예요.",
+    "sourceEpisode": 190
+  },
+  {
+    "id": "wp-18",
+    "originalSentence": "It is important. We keep promises.",
+    "instruction": "to부정사를 주어로 하여 합치기",
+    "options": [
+      "To keeping promises is important.",
+      "To keep promises is important.",
+      "Keep promises to be important.",
+      "To keep promises are important."
+    ],
+    "correctIndex": 1,
+    "explanation": "to부정사구가 주어로 쓰이면 단수 취급해 is를 써요.",
+    "sourceEpisode": 194
+  },
+  {
+    "id": "wp-19",
+    "originalSentence": "The plan will fail, I think, without more time.",
+    "instruction": "I think를 삽입하여 자연스럽게 쓰기",
+    "options": [
+      "The plan I think will, fail without more time.",
+      "I think, the plan, will fail without more time.",
+      "The plan, I think, will fail without more time.",
+      "The plan will I think fail, without more time."
+    ],
+    "correctIndex": 2,
+    "explanation": "삽입절 I think는 쉼표로 분리해 문장 중간에 넣을 수 있어요.",
+    "sourceEpisode": 198
+  },
+  {
+    "id": "wp-20",
+    "originalSentence": "A cheetah is fast. A horse is not as fast.",
+    "instruction": "비교급을 사용해 합치기",
+    "options": [
+      "A cheetah is more fast than a horse.",
+      "A cheetah is faster that a horse.",
+      "A cheetah is fastest than a horse.",
+      "A cheetah is faster than a horse."
+    ],
+    "correctIndex": 3,
+    "explanation": "fast의 비교급은 faster이고 비교 대상 앞에 than을 써요.",
+    "sourceEpisode": 205
+  }
+]

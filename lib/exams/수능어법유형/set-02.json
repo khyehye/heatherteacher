@@ -1,0 +1,132 @@
+[
+  {
+    "id": "gt-11",
+    "prompt": "The lecture was so ___ that everyone took notes.",
+    "options": [
+      "interested",
+      "interesting",
+      "interest",
+      "interestingly lecture"
+    ],
+    "correctIndex": 1,
+    "explanation": "강의가 흥미를 유발하므로 현재분사형 interesting을 써요.",
+    "sourceEpisode": 158
+  },
+  {
+    "id": "gt-12",
+    "prompt": "___ the door, Mina walked into the room.",
+    "options": [
+      "Opening",
+      "Opened",
+      "Was opening",
+      "To opened"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mina가 문을 여는 능동 관계이므로 Opening이 맞아요.",
+    "sourceEpisode": 162
+  },
+  {
+    "id": "gt-13",
+    "prompt": "He ___ like spicy food.",
+    "options": [
+      "don't",
+      "doesn't",
+      "isn't",
+      "didn't likes"
+    ],
+    "correctIndex": 1,
+    "explanation": "3인칭 단수 현재 부정문은 doesn't + 동사원형이에요.",
+    "sourceEpisode": 169
+  },
+  {
+    "id": "gt-14",
+    "prompt": "The phone ___ I bought yesterday is already broken.",
+    "options": [
+      "what",
+      "that",
+      "where",
+      "who"
+    ],
+    "correctIndex": 1,
+    "explanation": "사물 선행사를 받고 목적어가 빠진 절을 이끄는 that이 맞아요.",
+    "sourceEpisode": 173
+  },
+  {
+    "id": "gt-15",
+    "prompt": "Only then ___ the truth.",
+    "options": [
+      "I understood",
+      "did I understand",
+      "I did understood",
+      "understood I"
+    ],
+    "correctIndex": 1,
+    "explanation": "Only + 부사구가 문두에 오면 조동사와 주어가 도치돼요.",
+    "sourceEpisode": 177
+  },
+  {
+    "id": "gt-16",
+    "prompt": "___ she know the answer?",
+    "options": [
+      "Do",
+      "Does",
+      "Is",
+      "Did knows"
+    ],
+    "correctIndex": 1,
+    "explanation": "3인칭 단수 현재 일반동사 의문문은 Does로 시작해요.",
+    "sourceEpisode": 184
+  },
+  {
+    "id": "gt-17",
+    "prompt": "The café ___ we met has closed.",
+    "options": [
+      "which",
+      "where",
+      "what",
+      "that it"
+    ],
+    "correctIndex": 1,
+    "explanation": "만난 장소를 나타내고 뒤 절이 완전하므로 where를 써요.",
+    "sourceEpisode": 188
+  },
+  {
+    "id": "gt-18",
+    "prompt": "It was Tom ___ broke the window.",
+    "options": [
+      "which",
+      "who",
+      "where",
+      "whom he"
+    ],
+    "correctIndex": 1,
+    "explanation": "사람 Tom을 강조하고 뒤에서 주어 역할을 하므로 who가 맞아요.",
+    "sourceEpisode": 192
+  },
+  {
+    "id": "gt-19",
+    "prompt": "She ate ___ apple after lunch.",
+    "options": [
+      "a",
+      "an",
+      "the one",
+      "some"
+    ],
+    "correctIndex": 1,
+    "explanation": "apple은 모음 소리로 시작하는 단수 가산명사이므로 an을 써요.",
+    "sourceEpisode": 199
+  },
+  {
+    "id": "gt-20",
+    "prompt": "The game was canceled ___ the heavy rain.",
+    "options": [
+      "because",
+      "because of",
+      "although",
+      "despite of"
+    ],
+    "correctIndex": 1,
+    "explanation": "명사구 the heavy rain 앞에는 because of가 와요.",
+    "sourceEpisode": 203
+  }
+]

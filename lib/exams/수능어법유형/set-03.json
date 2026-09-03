@@ -1,0 +1,132 @@
+[
+  {
+    "id": "gt-21",
+    "prompt": "The quality of these products ___ excellent.",
+    "options": [
+      "are",
+      "is",
+      "have",
+      "being"
+    ],
+    "correctIndex": 1,
+    "explanation": "주어의 핵심은 단수명사 quality이므로 is를 써요.",
+    "sourceEpisode": 207
+  },
+  {
+    "id": "gt-22",
+    "prompt": "Three ___ were playing in the yard.",
+    "options": [
+      "childs",
+      "children",
+      "childrens",
+      "childes"
+    ],
+    "correctIndex": 1,
+    "explanation": "child의 불규칙 복수형은 children이에요.",
+    "sourceEpisode": 214
+  },
+  {
+    "id": "gt-23",
+    "prompt": "If I ___ you, I would apologize.",
+    "options": [
+      "am",
+      "were",
+      "was been",
+      "will be"
+    ],
+    "correctIndex": 1,
+    "explanation": "현재 사실과 반대되는 가정법 과거에서 be동사는 were를 써요.",
+    "sourceEpisode": 218
+  },
+  {
+    "id": "gt-24",
+    "prompt": "I don't know ___.",
+    "options": [
+      "where is he",
+      "where he is",
+      "where does he live",
+      "where he does is"
+    ],
+    "correctIndex": 1,
+    "explanation": "명사절인 간접의문문은 의문사 + 주어 + 동사 어순이에요.",
+    "sourceEpisode": 222
+  },
+  {
+    "id": "gt-25",
+    "prompt": "There isn't ___ milk in the fridge.",
+    "options": [
+      "some",
+      "any",
+      "many",
+      "a few"
+    ],
+    "correctIndex": 1,
+    "explanation": "일반적인 부정문에는 any를 써요.",
+    "sourceEpisode": 229
+  },
+  {
+    "id": "gt-26",
+    "prompt": "Jina said that she ___ busy the next day.",
+    "options": [
+      "is",
+      "would be",
+      "will",
+      "has been tomorrow"
+    ],
+    "correctIndex": 1,
+    "explanation": "과거 시점의 전달에서 will은 would로 바뀌어요.",
+    "sourceEpisode": 233
+  },
+  {
+    "id": "gt-27",
+    "prompt": "Could you tell me ___?",
+    "options": [
+      "what time does it start",
+      "what time it starts",
+      "does it start what time",
+      "what time starts it"
+    ],
+    "correctIndex": 1,
+    "explanation": "간접의문문 안에서는 주어 + 동사의 평서문 어순을 써요.",
+    "sourceEpisode": 237
+  },
+  {
+    "id": "gt-28",
+    "prompt": "___ shoes over there are mine.",
+    "options": [
+      "This",
+      "Those",
+      "That",
+      "These one"
+    ],
+    "correctIndex": 1,
+    "explanation": "멀리 있는 복수명사 shoes를 가리킬 때 Those를 써요.",
+    "sourceEpisode": 244
+  },
+  {
+    "id": "gt-29",
+    "prompt": "The teacher made us ___ the paragraph again.",
+    "options": [
+      "to write",
+      "write",
+      "writing",
+      "wrote"
+    ],
+    "correctIndex": 1,
+    "explanation": "능동태의 사역동사 make 뒤 목적격보어에는 동사원형이 와요.",
+    "sourceEpisode": 248
+  },
+  {
+    "id": "gt-30",
+    "prompt": "Take ___ you need from the box.",
+    "options": [
+      "that",
+      "whatever",
+      "which it",
+      "what thing that"
+    ],
+    "correctIndex": 1,
+    "explanation": "선행사를 포함해 ‘필요한 것은 무엇이든’이라는 뜻으로 whatever를 써요.",
+    "sourceEpisode": 252
+  }
+]

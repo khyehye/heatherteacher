@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ex-11",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Have you heard the name Alex Kim?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "That breaks a leg.",
+      "That cuts corners.",
+      "That rings a bell.",
+      "That is up to you."
+    ],
+    "correctIndex": 2,
+    "explanation": "어렴풋이 기억날 때 That rings a bell.이라고 해요.",
+    "sourceEpisode": 161
+  },
+  {
+    "id": "ex-12",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think about the new rule?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "It is on me that lunch.",
+      "It feels sick to me.",
+      "It goes dutch to me.",
+      "It seems to me that it needs more discussion."
+    ],
+    "correctIndex": 3,
+    "explanation": "의견을 조심스럽게 제시할 때 It seems to me that~을 써요.",
+    "sourceEpisode": 165
+  },
+  {
+    "id": "ex-13",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "___ I think you dropped your wallet."
+      },
+      {
+        "speaker": "B",
+        "text": "Oh, thank you!"
+      }
+    ],
+    "options": [
+      "Excuse me.",
+      "I'm sorry for you.",
+      "You're welcome me.",
+      "Take care it."
+    ],
+    "correctIndex": 0,
+    "explanation": "낯선 사람의 주의를 정중하게 끌 때 Excuse me.라고 해요.",
+    "sourceEpisode": 172
+  },
+  {
+    "id": "ex-14",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Do you want pizza or noodles?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I'm under the weather it.",
+      "I'm on the fence about it.",
+      "I'm on the same page it.",
+      "I'm over the moon it."
+    ],
+    "correctIndex": 1,
+    "explanation": "두 선택 사이에서 결정하지 못할 때 on the fence라고 해요.",
+    "sourceEpisode": 176
+  },
+  {
+    "id": "ex-15",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Why are you exhausted?"
+      },
+      {
+        "speaker": "B",
+        "text": "I agreed to lead three projects. ___"
+      }
+    ],
+    "options": [
+      "I hit the nail on my head.",
+      "I kept it in my hand.",
+      "I bit off more than I could chew.",
+      "I went back to my court."
+    ],
+    "correctIndex": 2,
+    "explanation": "감당할 수 있는 것보다 많은 일을 맡았을 때 bite off more than you can chew를 써요.",
+    "sourceEpisode": 180
+  },
+  {
+    "id": "ex-16",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Thanks for carrying these boxes."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "No question.",
+      "No welcome.",
+      "No luck.",
+      "No problem."
+    ],
+    "correctIndex": 3,
+    "explanation": "감사에 가볍게 응답할 때 No problem.이라고 할 수 있어요.",
+    "sourceEpisode": 187
+  },
+  {
+    "id": "ex-17",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Will the picnic be indoors or outside?"
+      },
+      {
+        "speaker": "B",
+        "text": "The weather is uncertain, so ___"
+      }
+    ],
+    "options": [
+      "let's play it by ear.",
+      "let's cut to the chase.",
+      "let's break a leg.",
+      "let's be on the fence."
+    ],
+    "correctIndex": 0,
+    "explanation": "상황을 지켜본 뒤 결정하자는 뜻으로 play it by ear를 써요.",
+    "sourceEpisode": 191
+  },
+  {
+    "id": "ex-18",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I've sent you the final proposal."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks. Now ___"
+      }
+    ],
+    "options": [
+      "the bell is in my hand.",
+      "the ball is in my court.",
+      "the nail is on my head.",
+      "the tea is in my cup."
+    ],
+    "correctIndex": 1,
+    "explanation": "다음 결정이나 행동의 책임이 자신에게 있으면 the ball is in my court라고 해요.",
+    "sourceEpisode": 195
+  },
+  {
+    "id": "ex-19",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I have my piano audition today."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Get well soon!",
+      "I'm just looking!",
+      "Good luck!",
+      "Make yourself at home!"
+    ],
+    "correctIndex": 2,
+    "explanation": "시험이나 도전을 앞둔 사람에게 Good luck!이라고 격려해요.",
+    "sourceEpisode": 202
+  },
+  {
+    "id": "ex-20",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Remember to bring your ID tomorrow."
+      },
+      {
+        "speaker": "B",
+        "text": "Thanks. ___"
+      }
+    ],
+    "options": [
+      "I'll hit that on the head.",
+      "I'll go dutch with that.",
+      "I'll make that at home.",
+      "I'll keep that in mind."
+    ],
+    "correctIndex": 3,
+    "explanation": "조언이나 정보를 기억해 두겠다는 뜻으로 keep that in mind를 써요.",
+    "sourceEpisode": 206
+  }
+]

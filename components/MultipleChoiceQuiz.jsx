@@ -17,11 +17,12 @@ export default function MultipleChoiceQuiz({ questions }) {
   return (
     <div>
       <ScoreBar total={questions.length} answered={answeredCount} correct={correctCount} />
-      {questions.map((q) => {
+      {questions.map((q, questionIndex) => {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
           <div key={q.id} className="entry-card">
+            <p className="question-number">Q{String(questionIndex + 1).padStart(2, "0")}</p>
             <p style={{ fontSize: 15, marginBottom: 10 }}>{q.prompt}</p>
             {q.options.map((opt, i) => {
               let cls = "opt";

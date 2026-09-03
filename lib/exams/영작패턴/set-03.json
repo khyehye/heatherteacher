@@ -1,0 +1,142 @@
+[
+  {
+    "id": "wp-21",
+    "originalSentence": "I need a chair. I can sit on it.",
+    "instruction": "to부정사의 형용사적 용법으로 합치기",
+    "options": [
+      "I need a chair to sit on.",
+      "I need to sit on a chair it.",
+      "I need a chair sitting on.",
+      "I need a chair to sit it on."
+    ],
+    "correctIndex": 0,
+    "explanation": "to sit on이 앞의 명사 a chair를 꾸며요.",
+    "sourceEpisode": 209
+  },
+  {
+    "id": "wp-22",
+    "originalSentence": "She is kind. She is also patient.",
+    "instruction": "not only A but also B로 합치기",
+    "options": [
+      "She not only is kind and also patient.",
+      "She is not only kind but also patient.",
+      "She is not only kind but patient also is.",
+      "She is both kind but also patient."
+    ],
+    "correctIndex": 1,
+    "explanation": "not only A but also B에서는 같은 형태의 요소를 병렬로 연결해요.",
+    "sourceEpisode": 213
+  },
+  {
+    "id": "wp-23",
+    "originalSentence": "No other mountain is higher than Everest.",
+    "instruction": "최상급 문장으로 바꾸기",
+    "options": [
+      "Everest is a highest mountain.",
+      "Everest is the most high mountain.",
+      "Everest is the highest mountain.",
+      "Everest is higher mountain."
+    ],
+    "correctIndex": 2,
+    "explanation": "high의 최상급은 the highest예요.",
+    "sourceEpisode": 220
+  },
+  {
+    "id": "wp-24",
+    "originalSentence": "She went to the library because she wanted to study.",
+    "instruction": "목적의 to부정사로 줄이기",
+    "options": [
+      "She went to the library for study.",
+      "She went to the library studying to.",
+      "She went to study because the library.",
+      "She went to the library to study."
+    ],
+    "correctIndex": 3,
+    "explanation": "목적을 나타내는 to부정사는 ‘~하기 위해서’로 해석해요.",
+    "sourceEpisode": 224
+  },
+  {
+    "id": "wp-25",
+    "originalSentence": "Perhaps he forgot the appointment.",
+    "instruction": "may have p.p.를 사용해 바꾸기",
+    "options": [
+      "He may have forgotten the appointment.",
+      "He may forgot the appointment.",
+      "He may has forgotten the appointment.",
+      "He might have forget the appointment."
+    ],
+    "correctIndex": 0,
+    "explanation": "과거에 대한 추측은 may have + p.p.로 나타내요.",
+    "sourceEpisode": 228
+  },
+  {
+    "id": "wp-26",
+    "originalSentence": "I was tired. I finished my homework.",
+    "instruction": "but으로 연결하기",
+    "options": [
+      "I was tired, so I finished my homework.",
+      "I was tired, but I finished my homework.",
+      "I was tired, or I finished my homework.",
+      "I was tired but, finished I my homework."
+    ],
+    "correctIndex": 1,
+    "explanation": "서로 대조되는 내용은 but으로 연결해요.",
+    "sourceEpisode": 235
+  },
+  {
+    "id": "wp-27",
+    "originalSentence": "It is fun to swim in the sea.",
+    "instruction": "동명사를 주어로 바꾸기",
+    "options": [
+      "Swim in the sea is fun.",
+      "Swimming in the sea are fun.",
+      "Swimming in the sea is fun.",
+      "To swimming in the sea is fun."
+    ],
+    "correctIndex": 2,
+    "explanation": "동명사구를 주어로 쓸 때는 단수 취급해 is를 써요.",
+    "sourceEpisode": 239
+  },
+  {
+    "id": "wp-28",
+    "originalSentence": "She seems to finish the work earlier.",
+    "instruction": "완료부정사로 선행 시점을 나타내기",
+    "options": [
+      "She seems to has finished the work earlier.",
+      "She seemed to have finish the work earlier.",
+      "She seems having finished the work earlier.",
+      "She seems to have finished the work earlier."
+    ],
+    "correctIndex": 3,
+    "explanation": "주절보다 앞선 일을 나타낼 때 to have + p.p.를 써요.",
+    "sourceEpisode": 243
+  },
+  {
+    "id": "wp-29",
+    "originalSentence": "The children are playing.",
+    "instruction": "공원에서라는 전치사구 넣기",
+    "options": [
+      "The children are playing in the park.",
+      "The children are playing at the park in.",
+      "The children in are playing the park.",
+      "The children are playing on the park."
+    ],
+    "correctIndex": 0,
+    "explanation": "장소의 내부나 넓은 공간은 in the park로 표현해요.",
+    "sourceEpisode": 250
+  },
+  {
+    "id": "wp-30",
+    "originalSentence": "She enjoys it. She reads novels.",
+    "instruction": "동명사를 목적어로 하여 합치기",
+    "options": [
+      "She enjoys to read novels.",
+      "She enjoys reading novels.",
+      "She enjoys read novels.",
+      "She enjoying reading novels."
+    ],
+    "correctIndex": 1,
+    "explanation": "enjoy 뒤에는 동명사 목적어가 와요.",
+    "sourceEpisode": 254
+  }
+]

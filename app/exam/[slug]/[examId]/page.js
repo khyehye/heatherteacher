@@ -18,9 +18,10 @@ const COMPONENT_BY_TYPE = {
 };
 
 export default function ExamTakePage({ params }) {
+  const slug = decodeURIComponent(params.slug);
   const examId = decodeURIComponent(params.examId);
   const examSet = examSets[examId];
-  if (!examSet) notFound();
+  if (!examSet || examSet.seriesSlug !== slug) notFound();
 
   const filePath = path.join(process.cwd(), "lib", examSet.questionFile);
   const questions = JSON.parse(fs.readFileSync(filePath, "utf-8"));
@@ -28,7 +29,7 @@ export default function ExamTakePage({ params }) {
 
   return (
     <main className="container reading-container exam-take-page">
-      <BackLink label="시험보기" />
+      <BackLink label={`${examSet.seriesSlug} 시험지`} />
       <div className="exam-take-meta">
         <span className="tag-code">{seriesCode(examSet.seriesSlug)}</span>
         <span className="tag-label">{examSet.level}</span>

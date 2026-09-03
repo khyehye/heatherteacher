@@ -1,0 +1,142 @@
+[
+  {
+    "id": "wp-31",
+    "originalSentence": "He denied that he had broken the vase.",
+    "instruction": "완료동명사를 사용해 바꾸기",
+    "options": [
+      "He denied to have broken the vase.",
+      "He denied having break the vase.",
+      "He denied having broken the vase.",
+      "He denied had broken the vase."
+    ],
+    "correctIndex": 2,
+    "explanation": "주절보다 앞선 동명사의 행동은 having + p.p.로 나타내요.",
+    "sourceEpisode": 258
+  },
+  {
+    "id": "wp-32",
+    "originalSentence": "This bicycle belongs to Mina.",
+    "instruction": "소유격을 사용해 바꾸기",
+    "options": [
+      "This is bicycle of Mina's.",
+      "This bicycle is Mina.",
+      "This is Minas' bicycle.",
+      "This is Mina's bicycle."
+    ],
+    "correctIndex": 3,
+    "explanation": "사람 이름 뒤에 's를 붙여 소유를 나타내요.",
+    "sourceEpisode": 265
+  },
+  {
+    "id": "wp-33",
+    "originalSentence": "I visited Jeju twice.",
+    "instruction": "현재완료 경험으로 바꾸기",
+    "options": [
+      "I have visited Jeju twice.",
+      "I have visit Jeju twice.",
+      "I visited Jeju since twice.",
+      "I am visited Jeju twice."
+    ],
+    "correctIndex": 0,
+    "explanation": "지금까지의 경험은 have/has + p.p.로 나타낼 수 있어요.",
+    "sourceEpisode": 269
+  },
+  {
+    "id": "wp-34",
+    "originalSentence": "It is important that he should be honest.",
+    "instruction": "to부정사의 의미상 주어를 넣어 바꾸기",
+    "options": [
+      "It is important him to be honest.",
+      "It is important for him to be honest.",
+      "It is important of he to be honest.",
+      "It is important for him being honest."
+    ],
+    "correctIndex": 1,
+    "explanation": "일반적인 의미상 주어는 for + 목적격으로 나타내요.",
+    "sourceEpisode": 273
+  },
+  {
+    "id": "wp-35",
+    "originalSentence": "The books near me are interesting.",
+    "instruction": "these를 사용해 바꾸기",
+    "options": [
+      "This books are interesting.",
+      "Those book are interesting.",
+      "These books are interesting.",
+      "These book is interesting."
+    ],
+    "correctIndex": 2,
+    "explanation": "가까이 있는 복수 대상을 가리킬 때 these를 써요.",
+    "sourceEpisode": 280
+  },
+  {
+    "id": "wp-36",
+    "originalSentence": "I started living here in 2022, and I still live here.",
+    "instruction": "현재완료 계속으로 바꾸기",
+    "options": [
+      "I lived here since 2022.",
+      "I have lived here for 2022.",
+      "I am living here since 2022.",
+      "I have lived here since 2022."
+    ],
+    "correctIndex": 3,
+    "explanation": "과거부터 지금까지의 계속은 현재완료와 since를 써요.",
+    "sourceEpisode": 284
+  },
+  {
+    "id": "wp-37",
+    "originalSentence": "I didn't study hard then, so I am not confident now.",
+    "instruction": "혼합가정법으로 바꾸기",
+    "options": [
+      "If I had studied hard then, I would be confident now.",
+      "If I studied hard then, I would have been confident now.",
+      "If I had study hard, I will be confident now.",
+      "If I would have studied, I were confident now."
+    ],
+    "correctIndex": 0,
+    "explanation": "과거 사실의 반대가 현재 결과에 영향을 줄 때 if절은 had p.p., 주절은 would + 동사원형을 써요.",
+    "sourceEpisode": 288
+  },
+  {
+    "id": "wp-38",
+    "originalSentence": "Mina reads a book now.",
+    "instruction": "현재진행형으로 바꾸기",
+    "options": [
+      "Mina reading a book now.",
+      "Mina is reading a book now.",
+      "Mina does reading a book now.",
+      "Mina is read a book now."
+    ],
+    "correctIndex": 1,
+    "explanation": "현재진행형은 be동사 + 동사-ing로 만들어요.",
+    "sourceEpisode": 295
+  },
+  {
+    "id": "wp-39",
+    "originalSentence": "She just finished her homework.",
+    "instruction": "현재완료 완료로 바꾸기",
+    "options": [
+      "She just has finish her homework.",
+      "She has just finish her homework.",
+      "She has just finished her homework.",
+      "She is just finished her homework."
+    ],
+    "correctIndex": 2,
+    "explanation": "막 완료된 일은 has/have + just + p.p.로 나타내요.",
+    "sourceEpisode": 299
+  },
+  {
+    "id": "wp-40",
+    "originalSentence": "Not every student passed the test.",
+    "instruction": "부분부정의 의미가 유지되는 문장 고르기",
+    "options": [
+      "No student passed the test.",
+      "Every student failed the test.",
+      "Students never took the test.",
+      "Some students did not pass the test."
+    ],
+    "correctIndex": 3,
+    "explanation": "not every는 ‘모두가 ~한 것은 아니다’라는 부분부정이에요.",
+    "sourceEpisode": 303
+  }
+]

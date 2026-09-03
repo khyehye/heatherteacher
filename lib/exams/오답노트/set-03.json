@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cn-21",
+    "prompt": "Can I ___ to Mr. Lee?",
+    "options": [
+      "talk",
+      "speak",
+      "tell",
+      "say him"
+    ],
+    "correctIndex": 1,
+    "explanation": "전화에서 ‘~와 통화하다’는 speak to를 흔히 써요.",
+    "sourceEpisode": 208
+  },
+  {
+    "id": "cn-22",
+    "prompt": "The moon landing was a ___ event.",
+    "options": [
+      "historical",
+      "historic",
+      "history",
+      "historically"
+    ],
+    "correctIndex": 1,
+    "explanation": "역사적으로 중요한 사건은 historic이라고 해요.",
+    "sourceEpisode": 212
+  },
+  {
+    "id": "cn-23",
+    "prompt": "The workbook is designed to ___ the textbook.",
+    "options": [
+      "compliment",
+      "supplement",
+      "implement",
+      "supply to"
+    ],
+    "correctIndex": 1,
+    "explanation": "기존 자료에 내용을 보충하는 것은 supplement예요.",
+    "sourceEpisode": 216
+  },
+  {
+    "id": "cn-24",
+    "prompt": "I can ___ someone singing outside.",
+    "options": [
+      "listen",
+      "hear",
+      "listen to",
+      "sound"
+    ],
+    "correctIndex": 1,
+    "explanation": "의도하지 않아도 소리가 들리는 것은 hear예요.",
+    "sourceEpisode": 223
+  },
+  {
+    "id": "cn-25",
+    "prompt": "Of the two plans, I prefer the ___.",
+    "options": [
+      "later",
+      "latter",
+      "latest",
+      "late"
+    ],
+    "correctIndex": 1,
+    "explanation": "둘 중 뒤에 언급된 것은 the latter예요.",
+    "sourceEpisode": 227
+  },
+  {
+    "id": "cn-26",
+    "prompt": "Dark clouds suggested that a storm was ___.",
+    "options": [
+      "eminent",
+      "imminent",
+      "permanent",
+      "prominent"
+    ],
+    "correctIndex": 1,
+    "explanation": "곧 닥칠 듯한 상태는 imminent예요.",
+    "sourceEpisode": 231
+  },
+  {
+    "id": "cn-27",
+    "prompt": "We ___ a movie last night.",
+    "options": [
+      "saw at",
+      "watched",
+      "looked",
+      "view to"
+    ],
+    "correctIndex": 1,
+    "explanation": "집중해서 영화나 경기를 보는 동사는 watch예요.",
+    "sourceEpisode": 238
+  },
+  {
+    "id": "cn-28",
+    "prompt": "Be careful not to ___ your ticket.",
+    "options": [
+      "loose",
+      "lose",
+      "loss",
+      "losting"
+    ],
+    "correctIndex": 1,
+    "explanation": "동사 lose는 잃다, 형용사 loose는 헐거운이라는 뜻이에요.",
+    "sourceEpisode": 242
+  },
+  {
+    "id": "cn-29",
+    "prompt": "Smoke can ___ sensitive eyes.",
+    "options": [
+      "aggravation",
+      "irritate",
+      "irritated",
+      "aggravatingly"
+    ],
+    "correctIndex": 1,
+    "explanation": "눈이나 피부를 자극한다는 뜻에는 irritate가 자연스러워요.",
+    "sourceEpisode": 246
+  },
+  {
+    "id": "cn-30",
+    "prompt": "I have ___ close friends, so I'm not lonely.",
+    "options": [
+      "few",
+      "a few",
+      "little",
+      "a little"
+    ],
+    "correctIndex": 1,
+    "explanation": "a few는 셀 수 있는 명사가 조금 있어서 긍정적인 뜻이에요.",
+    "sourceEpisode": 253
+  }
+]

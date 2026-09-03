@@ -1,0 +1,142 @@
+[
+  {
+    "id": "wp-1",
+    "originalSentence": "I had never seen such a beautiful view.",
+    "instruction": "부정어를 문장 앞으로 옮겨 도치하기",
+    "options": [
+      "Never had I seen such a beautiful view.",
+      "Never I had seen such a beautiful view.",
+      "Never did I had seen such a beautiful view.",
+      "Never had seen I such a beautiful view."
+    ],
+    "correctIndex": 0,
+    "explanation": "과거완료의 부정어 도치는 Never + had + 주어 + p.p. 순서예요.",
+    "sourceEpisode": 108
+  },
+  {
+    "id": "wp-2",
+    "originalSentence": "Tom / reads / books",
+    "instruction": "올바른 S+V+O 문장 만들기",
+    "options": [
+      "Tom books reads.",
+      "Tom reads books.",
+      "Reads Tom books.",
+      "Tom reading books."
+    ],
+    "correctIndex": 1,
+    "explanation": "주어 Tom 뒤에 동사 reads, 목적어 books가 와요.",
+    "sourceEpisode": 115
+  },
+  {
+    "id": "wp-3",
+    "originalSentence": "The chef cooked the meal.",
+    "instruction": "수동태로 바꾸기",
+    "options": [
+      "The meal cooked by the chef.",
+      "The meal was cook by the chef.",
+      "The meal was cooked by the chef.",
+      "The chef was cooked the meal."
+    ],
+    "correctIndex": 2,
+    "explanation": "과거 수동태는 was/were + p.p.로 만들어요.",
+    "sourceEpisode": 119
+  },
+  {
+    "id": "wp-4",
+    "originalSentence": "Jina likes jazz. I like jazz, too.",
+    "instruction": "so 도치를 이용해 한 문장으로 나타내기",
+    "options": [
+      "Jina likes jazz, and so I do.",
+      "Jina likes jazz, and so am I.",
+      "Jina likes jazz, and neither do I.",
+      "Jina likes jazz, and so do I."
+    ],
+    "correctIndex": 3,
+    "explanation": "일반동사 현재 긍정문에 동의할 때 so + do + 주어를 써요.",
+    "sourceEpisode": 123
+  },
+  {
+    "id": "wp-5",
+    "originalSentence": "A cat is under the table.",
+    "instruction": "There is를 사용해 바꾸기",
+    "options": [
+      "There is a cat under the table.",
+      "There are a cat under the table.",
+      "There a cat is under the table.",
+      "It is a cat under the table."
+    ],
+    "correctIndex": 0,
+    "explanation": "단수 명사의 존재는 There is + 단수명사로 나타내요.",
+    "sourceEpisode": 130
+  },
+  {
+    "id": "wp-6",
+    "originalSentence": "The window was broken by the boy.",
+    "instruction": "능동태로 바꾸기",
+    "options": [
+      "The boy was broken the window.",
+      "The boy broke the window.",
+      "The window broke the boy.",
+      "The boy breaked the window."
+    ],
+    "correctIndex": 1,
+    "explanation": "수동문의 by 행위자를 주어로 옮기고 과거동사 broke를 써요.",
+    "sourceEpisode": 134
+  },
+  {
+    "id": "wp-7",
+    "originalSentence": "When it is possible, send me the file today.",
+    "instruction": "접속사절을 생략구문으로 줄이기",
+    "options": [
+      "When being possible, send me the file today.",
+      "When possible is, send me the file today.",
+      "When possible, send me the file today.",
+      "Possible when, send me the file today."
+    ],
+    "correctIndex": 2,
+    "explanation": "주절의 상황을 나타내는 be동사절은 접속사와 보어만 남길 수 있어요.",
+    "sourceEpisode": 138
+  },
+  {
+    "id": "wp-8",
+    "originalSentence": "She plays tennis.",
+    "instruction": "부정문으로 바꾸기",
+    "options": [
+      "She not plays tennis.",
+      "She does not plays tennis.",
+      "She is not play tennis.",
+      "She does not play tennis."
+    ],
+    "correctIndex": 3,
+    "explanation": "3인칭 단수 현재 부정문은 does not + 동사원형이에요.",
+    "sourceEpisode": 145
+  },
+  {
+    "id": "wp-9",
+    "originalSentence": "Mina said, “I am tired.”",
+    "instruction": "간접화법으로 바꾸기",
+    "options": [
+      "Mina said that she was tired.",
+      "Mina said that I am tired.",
+      "Mina told that she was tired.",
+      "Mina said she is tired yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": "과거 시점의 전달에서는 I를 she로, am을 was로 바꿔요.",
+    "sourceEpisode": 149
+  },
+  {
+    "id": "wp-10",
+    "originalSentence": "Because of the rain, we canceled the game.",
+    "instruction": "무생물주어 문장으로 바꾸기",
+    "options": [
+      "The rain made us canceled the game.",
+      "The rain caused us to cancel the game.",
+      "The rain caused that we cancel the game.",
+      "We were caused to cancel by the rain."
+    ],
+    "correctIndex": 1,
+    "explanation": "원인인 the rain을 주어로 두고 cause + 목적어 + to부정사를 쓸 수 있어요.",
+    "sourceEpisode": 153
+  }
+]

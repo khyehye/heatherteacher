@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pv-11",
+    "prompt": "The police will ___ the cause of the accident.",
+    "options": [
+      "break up",
+      "look down on",
+      "look into",
+      "put on"
+    ],
+    "correctIndex": 2,
+    "explanation": "look into는 문제나 사건을 조사하다는 뜻이에요.",
+    "sourceEpisode": 155
+  },
+  {
+    "id": "pv-12",
+    "prompt": "I ___ an old photo while cleaning my room.",
+    "options": [
+      "called off",
+      "find out",
+      "take off",
+      "came across"
+    ],
+    "correctIndex": 3,
+    "explanation": "come across는 우연히 발견하거나 마주치다는 뜻이에요.",
+    "sourceEpisode": 159
+  },
+  {
+    "id": "pv-13",
+    "prompt": "It's dark. Please ___ the light.",
+    "options": [
+      "turn on",
+      "check in",
+      "look forward to",
+      "come up with"
+    ],
+    "correctIndex": 0,
+    "explanation": "turn on은 전등이나 기기를 켜다는 뜻이에요.",
+    "sourceEpisode": 166
+  },
+  {
+    "id": "pv-14",
+    "prompt": "Can you ___ a better solution?",
+    "options": [
+      "get up",
+      "come up with",
+      "gets along with",
+      "take care of"
+    ],
+    "correctIndex": 1,
+    "explanation": "come up with는 생각이나 해결책을 생각해 내다는 뜻이에요.",
+    "sourceEpisode": 170
+  },
+  {
+    "id": "pv-15",
+    "prompt": "The team ___ several unexpected problems.",
+    "options": [
+      "wake up",
+      "look into",
+      "came up against",
+      "put off"
+    ],
+    "correctIndex": 2,
+    "explanation": "come up against는 어려움이나 반대에 부딪히다는 뜻이에요.",
+    "sourceEpisode": 174
+  },
+  {
+    "id": "pv-16",
+    "prompt": "Don't forget to ___ the TV before bed.",
+    "options": [
+      "put on",
+      "come up with",
+      "carry out",
+      "turn off"
+    ],
+    "correctIndex": 3,
+    "explanation": "turn off는 전등이나 기기를 끄다는 뜻이에요.",
+    "sourceEpisode": 181
+  },
+  {
+    "id": "pv-17",
+    "prompt": "Could you ___ my dog this weekend?",
+    "options": [
+      "take care of",
+      "take off",
+      "cut down on",
+      "bring up"
+    ],
+    "correctIndex": 0,
+    "explanation": "take care of는 사람이나 동물을 돌보다는 뜻이에요.",
+    "sourceEpisode": 185
+  },
+  {
+    "id": "pv-18",
+    "prompt": "I'm trying to ___ sugar.",
+    "options": [
+      "turn on",
+      "cut down on",
+      "do away with",
+      "broke down"
+    ],
+    "correctIndex": 1,
+    "explanation": "cut down on은 섭취량이나 사용량을 줄이다라는 뜻이에요.",
+    "sourceEpisode": 189
+  },
+  {
+    "id": "pv-19",
+    "prompt": "I'm ___ my missing keys.",
+    "options": [
+      "turn off",
+      "dwell on",
+      "looking for",
+      "break up"
+    ],
+    "correctIndex": 2,
+    "explanation": "look for는 잃어버린 것이나 필요한 것을 찾다는 뜻이에요.",
+    "sourceEpisode": 196
+  },
+  {
+    "id": "pv-20",
+    "prompt": "We had to ___ the meeting until Friday.",
+    "options": [
+      "looking for",
+      "fall back on",
+      "called off",
+      "put off"
+    ],
+    "correctIndex": 3,
+    "explanation": "put off는 일정이나 일을 미루다는 뜻이에요.",
+    "sourceEpisode": 200
+  }
+]

@@ -15,11 +15,12 @@ export default function ReadingComprehensionQuiz({ questions }) {
   return (
     <div>
       <ScoreBar total={questions.length} answered={answeredCount} correct={correctCount} />
-      {questions.map((q) => {
+      {questions.map((q, questionIndex) => {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
           <div key={q.id} className="entry-card">
+            <p className="question-number">Q{String(questionIndex + 1).padStart(2, "0")}</p>
             <p className="muted" style={{ fontSize: 12, marginBottom: 8 }}>
               다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?
             </p>

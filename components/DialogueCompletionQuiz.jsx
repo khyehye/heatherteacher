@@ -15,11 +15,12 @@ export default function DialogueCompletionQuiz({ questions }) {
   return (
     <div>
       <ScoreBar total={questions.length} answered={answeredCount} correct={correctCount} />
-      {questions.map((q) => {
+      {questions.map((q, questionIndex) => {
         const picked = answers[q.id];
         const done = picked !== undefined;
         return (
           <div key={q.id} className="entry-card">
+            <p className="question-number">Q{String(questionIndex + 1).padStart(2, "0")}</p>
             <div style={{ marginBottom: 12 }}>
               {q.dialogue.map((line, i) => {
                 const isBlankLine = line.text.includes("___");

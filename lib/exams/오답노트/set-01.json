@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cn-1",
+    "prompt": "The weather can ___ your mood.",
+    "options": [
+      "affect",
+      "effect",
+      "effects",
+      "affected by"
+    ],
+    "correctIndex": 0,
+    "explanation": "동사 affect는 ‘영향을 미치다’라는 뜻이에요.",
+    "sourceEpisode": 107
+  },
+  {
+    "id": "cn-2",
+    "prompt": "The committee is ___ ten members.",
+    "options": [
+      "comprised of",
+      "composed",
+      "consist of",
+      "comprising of"
+    ],
+    "correctIndex": 0,
+    "explanation": "be comprised of는 ‘~로 구성되다’라는 뜻이에요.",
+    "sourceEpisode": 111
+  },
+  {
+    "id": "cn-3",
+    "prompt": "Finish your homework, ___ you can play.",
+    "options": [
+      "than",
+      "then",
+      "them",
+      "that"
+    ],
+    "correctIndex": 1,
+    "explanation": "순서를 나타내는 부사는 then이에요.",
+    "sourceEpisode": 118
+  },
+  {
+    "id": "cn-4",
+    "prompt": "Everyone ___ Mina attended the meeting.",
+    "options": [
+      "accept",
+      "except",
+      "expect",
+      "accepted"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘~을 제외하고’라는 뜻의 전치사는 except예요.",
+    "sourceEpisode": 122
+  },
+  {
+    "id": "cn-5",
+    "prompt": "From her smile, I ___ that she was pleased.",
+    "options": [
+      "implied",
+      "inferred",
+      "referred",
+      "assured"
+    ],
+    "correctIndex": 1,
+    "explanation": "근거를 보고 결론을 내리는 사람은 infer해요.",
+    "sourceEpisode": 126
+  },
+  {
+    "id": "cn-6",
+    "prompt": "The dog wagged ___ tail.",
+    "options": [
+      "it's",
+      "its",
+      "it",
+      "its'"
+    ],
+    "correctIndex": 1,
+    "explanation": "소유격 its에는 아포스트로피를 쓰지 않아요.",
+    "sourceEpisode": 133
+  },
+  {
+    "id": "cn-7",
+    "prompt": "My teacher gave me useful ___.",
+    "options": [
+      "advise",
+      "advice",
+      "advises",
+      "advisor"
+    ],
+    "correctIndex": 1,
+    "explanation": "명사 ‘조언’은 advice, 동사 ‘조언하다’는 advise예요.",
+    "sourceEpisode": 137
+  },
+  {
+    "id": "cn-8",
+    "prompt": "We need to discuss this issue ___.",
+    "options": [
+      "farther",
+      "further",
+      "farthest",
+      "furthest away"
+    ],
+    "correctIndex": 1,
+    "explanation": "추가적인 논의를 뜻할 때는 further를 써요.",
+    "sourceEpisode": 141
+  },
+  {
+    "id": "cn-9",
+    "prompt": "___ going to love this book.",
+    "options": [
+      "Your",
+      "You're",
+      "Yours",
+      "Youre"
+    ],
+    "correctIndex": 1,
+    "explanation": "You're는 you are의 줄임말이에요.",
+    "sourceEpisode": 148
+  },
+  {
+    "id": "cn-10",
+    "prompt": "The secret was shared ___ the three friends.",
+    "options": [
+      "between",
+      "among",
+      "beside",
+      "across"
+    ],
+    "correctIndex": 1,
+    "explanation": "셋 이상의 집단 속에서 나누는 관계에는 among을 써요.",
+    "sourceEpisode": 152
+  }
+]

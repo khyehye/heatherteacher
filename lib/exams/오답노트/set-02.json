@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cn-11",
+    "prompt": "Please ___ that every window is locked.",
+    "options": [
+      "assure",
+      "ensure",
+      "insure",
+      "reassure"
+    ],
+    "correctIndex": 1,
+    "explanation": "어떤 일이 반드시 이루어지게 한다는 뜻은 ensure예요.",
+    "sourceEpisode": 156
+  },
+  {
+    "id": "cn-12",
+    "prompt": "I ate ___ much cake at the party.",
+    "options": [
+      "to",
+      "too",
+      "two",
+      "toward"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘지나치게’라는 뜻의 부사는 too예요.",
+    "sourceEpisode": 163
+  },
+  {
+    "id": "cn-13",
+    "prompt": "___ English, she studies French.",
+    "options": [
+      "Beside",
+      "Besides",
+      "Between",
+      "Beyond"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘~뿐만 아니라, 게다가’라는 뜻은 besides예요.",
+    "sourceEpisode": 167
+  },
+  {
+    "id": "cn-14",
+    "prompt": "It took time to ___ to my new school.",
+    "options": [
+      "adopt",
+      "adapt",
+      "adept",
+      "adjusting"
+    ],
+    "correctIndex": 1,
+    "explanation": "새 환경에 적응한다는 뜻은 adapt예요.",
+    "sourceEpisode": 171
+  },
+  {
+    "id": "cn-15",
+    "prompt": "Could I ___ your umbrella?",
+    "options": [
+      "lend",
+      "borrow",
+      "loaning",
+      "bring"
+    ],
+    "correctIndex": 1,
+    "explanation": "borrow는 남에게서 빌리다, lend는 남에게 빌려주다예요.",
+    "sourceEpisode": 178
+  },
+  {
+    "id": "cn-16",
+    "prompt": "The red scarf is a perfect ___ to her coat.",
+    "options": [
+      "compliment",
+      "complement",
+      "completion",
+      "supplemental"
+    ],
+    "correctIndex": 1,
+    "explanation": "서로 잘 어울려 완성해 주는 것은 complement예요.",
+    "sourceEpisode": 182
+  },
+  {
+    "id": "cn-17",
+    "prompt": "Lunch will ___ the afternoon meeting.",
+    "options": [
+      "proceed",
+      "precede",
+      "process",
+      "preceding"
+    ],
+    "correctIndex": 1,
+    "explanation": "시간상 앞서 일어나는 것은 precede예요.",
+    "sourceEpisode": 186
+  },
+  {
+    "id": "cn-18",
+    "prompt": "Please ___ me your name.",
+    "options": [
+      "say",
+      "tell",
+      "speak",
+      "talk"
+    ],
+    "correctIndex": 1,
+    "explanation": "tell은 바로 뒤에 사람 목적어를 취할 수 있어요.",
+    "sourceEpisode": 193
+  },
+  {
+    "id": "cn-19",
+    "prompt": "This small car is very ___ to run.",
+    "options": [
+      "economic",
+      "economical",
+      "economy",
+      "economically car"
+    ],
+    "correctIndex": 1,
+    "explanation": "돈이나 연료가 적게 드는 것은 economical이에요.",
+    "sourceEpisode": 197
+  },
+  {
+    "id": "cn-20",
+    "prompt": "The suspect managed to ___ the police.",
+    "options": [
+      "allude",
+      "elude",
+      "delude",
+      "include"
+    ],
+    "correctIndex": 1,
+    "explanation": "elude는 추적이나 포획을 피하다는 뜻이에요.",
+    "sourceEpisode": 201
+  }
+]

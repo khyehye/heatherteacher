@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cn-31",
+    "prompt": "Honesty is an important ___.",
+    "options": [
+      "principal",
+      "principle",
+      "principally",
+      "principality"
+    ],
+    "correctIndex": 1,
+    "explanation": "규칙이나 원칙은 principle이에요.",
+    "sourceEpisode": 257
+  },
+  {
+    "id": "cn-32",
+    "prompt": "A fair judge must remain ___.",
+    "options": [
+      "uninterested",
+      "disinterested",
+      "interesting",
+      "disinteresting"
+    ],
+    "correctIndex": 1,
+    "explanation": "사적인 이해관계 없이 공정한 상태는 disinterested예요.",
+    "sourceEpisode": 261
+  },
+  {
+    "id": "cn-33",
+    "prompt": "There is ___ milk left, enough for one cup.",
+    "options": [
+      "little",
+      "a little",
+      "few",
+      "a few"
+    ],
+    "correctIndex": 1,
+    "explanation": "a little은 셀 수 없는 명사가 조금 있다는 긍정 표현이에요.",
+    "sourceEpisode": 268
+  },
+  {
+    "id": "cn-34",
+    "prompt": "Please buy some ___ at the bookstore.",
+    "options": [
+      "stationary",
+      "stationery",
+      "station",
+      "stationeries"
+    ],
+    "correctIndex": 1,
+    "explanation": "편지지와 문구류는 stationery예요.",
+    "sourceEpisode": 272
+  },
+  {
+    "id": "cn-35",
+    "prompt": "The machine makes a ___ humming sound.",
+    "options": [
+      "continual",
+      "continuous",
+      "continuedly",
+      "continuing"
+    ],
+    "correctIndex": 1,
+    "explanation": "중단 없이 계속되는 것은 continuous예요.",
+    "sourceEpisode": 276
+  },
+  {
+    "id": "cn-36",
+    "prompt": "How ___ water do you drink each day?",
+    "options": [
+      "many",
+      "much",
+      "few",
+      "several"
+    ],
+    "correctIndex": 1,
+    "explanation": "셀 수 없는 명사 water 앞에는 much를 써요.",
+    "sourceEpisode": 283
+  },
+  {
+    "id": "cn-37",
+    "prompt": "___ did you invite to the party?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Who's"
+    ],
+    "correctIndex": 1,
+    "explanation": "invite의 목적어 자리이므로 격식을 갖춘 문장에서는 whom을 써요.",
+    "sourceEpisode": 287
+  },
+  {
+    "id": "cn-38",
+    "prompt": "We need ___ chairs, not less chairs.",
+    "options": [
+      "less",
+      "fewer",
+      "fewest",
+      "little"
+    ],
+    "correctIndex": 1,
+    "explanation": "셀 수 있는 복수명사의 수가 더 적다는 뜻은 fewer예요.",
+    "sourceEpisode": 291
+  },
+  {
+    "id": "cn-39",
+    "prompt": "Do you have ___ questions?",
+    "options": [
+      "some",
+      "any",
+      "much",
+      "every"
+    ],
+    "correctIndex": 1,
+    "explanation": "일반적인 의문문에는 보통 any를 써요.",
+    "sourceEpisode": 298
+  },
+  {
+    "id": "cn-40",
+    "prompt": "The book ___ I borrowed is fascinating.",
+    "options": [
+      "which one",
+      "that",
+      "what",
+      "where"
+    ],
+    "correctIndex": 1,
+    "explanation": "제한적 용법에서 사물을 받는 목적격 관계대명사로 that을 쓸 수 있어요.",
+    "sourceEpisode": 302
+  }
+]

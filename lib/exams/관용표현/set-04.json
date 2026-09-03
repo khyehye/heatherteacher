@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ex-31",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Why are you hurrying?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I'm going expensive.",
+      "I'm feeling welcome.",
+      "I'm running late.",
+      "I'm making full."
+    ],
+    "correctIndex": 2,
+    "explanation": "약속 시간에 늦고 있다고 말할 때 I'm running late.라고 해요.",
+    "sourceEpisode": 262
+  },
+  {
+    "id": "ex-32",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "The task is unpleasant, but we have to do it."
+      },
+      {
+        "speaker": "B",
+        "text": "I know. Let's ___"
+      }
+    ],
+    "options": [
+      "ring the bell.",
+      "drink the tea.",
+      "draw the board.",
+      "bite the bullet."
+    ],
+    "correctIndex": 3,
+    "explanation": "힘들지만 피할 수 없는 일을 감수할 때 bite the bullet이라고 해요.",
+    "sourceEpisode": 266
+  },
+  {
+    "id": "ex-33",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Another deadline was moved forward."
+      },
+      {
+        "speaker": "B",
+        "text": "Unfortunately, that's ___ in this industry."
+      }
+    ],
+    "options": [
+      "par for the course",
+      "off the top of my head",
+      "under the tea cup",
+      "over the drawing board"
+    ],
+    "correctIndex": 0,
+    "explanation": "어떤 상황에서 흔히 예상되는 일은 par for the course라고 해요.",
+    "sourceEpisode": 270
+  },
+  {
+    "id": "ex-34",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Let me pay for dinner tonight."
+      },
+      {
+        "speaker": "B",
+        "text": "Really?"
+      }
+    ],
+    "options": [
+      "It's up me.",
+      "It's on me.",
+      "It's by me.",
+      "It's at me."
+    ],
+    "correctIndex": 1,
+    "explanation": "내가 비용을 내겠다는 뜻으로 It's on me.라고 해요.",
+    "sourceEpisode": 277
+  },
+  {
+    "id": "ex-35",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "The real problem is unclear communication."
+      },
+      {
+        "speaker": "B",
+        "text": "You ___"
+      }
+    ],
+    "options": [
+      "put eggs in a basket.",
+      "got cold feet together.",
+      "hit the nail on the head.",
+      "went back to tea."
+    ],
+    "correctIndex": 2,
+    "explanation": "문제의 핵심을 정확히 짚었을 때 hit the nail on the head라고 해요.",
+    "sourceEpisode": 281
+  },
+  {
+    "id": "ex-36",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How many people attended?"
+      },
+      {
+        "speaker": "B",
+        "text": "___, I'd say about fifty."
+      }
+    ],
+    "options": [
+      "Under the bottom of my foot",
+      "Inside the cup of my tea",
+      "Across the board of my room",
+      "Off the top of my head"
+    ],
+    "correctIndex": 3,
+    "explanation": "정확히 확인하지 않고 바로 떠오르는 대로 답할 때 쓰는 표현이에요.",
+    "sourceEpisode": 285
+  },
+  {
+    "id": "ex-37",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How should we split the bill?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Let's go dutch.",
+      "Let's get well.",
+      "Let's feel free.",
+      "Let's run late."
+    ],
+    "correctIndex": 0,
+    "explanation": "각자 먹은 비용을 따로 내자는 뜻으로 go dutch라고 해요.",
+    "sourceEpisode": 292
+  },
+  {
+    "id": "ex-38",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Please tell me directly what happened."
+      },
+      {
+        "speaker": "B",
+        "text": "Okay. I won't ___"
+      }
+    ],
+    "options": [
+      "hit the nail on the head.",
+      "beat around the bush.",
+      "go the extra mile.",
+      "pull myself together."
+    ],
+    "correctIndex": 1,
+    "explanation": "핵심을 피하며 빙빙 돌려 말하는 것은 beat around the bush예요.",
+    "sourceEpisode": 296
+  },
+  {
+    "id": "ex-39",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "The usual solutions aren't working."
+      },
+      {
+        "speaker": "B",
+        "text": "Then we need to ___"
+      }
+    ],
+    "options": [
+      "put everything in one box.",
+      "return to the same box.",
+      "think outside the box.",
+      "cut the box corners."
+    ],
+    "correctIndex": 2,
+    "explanation": "기존 틀을 벗어나 창의적으로 생각할 때 think outside the box라고 해요.",
+    "sourceEpisode": 300
+  },
+  {
+    "id": "ex-40",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "You don't look well today."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I have a luck.",
+      "I have a welcome.",
+      "I have a late.",
+      "I have a cold."
+    ],
+    "correctIndex": 3,
+    "explanation": "감기에 걸렸다고 말할 때 I have a cold.라고 해요.",
+    "sourceEpisode": 307
+  }
+]

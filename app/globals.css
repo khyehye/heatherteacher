@@ -267,9 +267,15 @@ button, input, textarea { font: inherit; }
 .exam-card > p { min-height: 52px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.65; }
 .exam-card-meta { display: flex; align-items: center; gap: 13px; margin-top: auto; padding-top: 24px; color: var(--muted); font: 500 9px/1 var(--mono); text-transform: uppercase; }
 .exam-card-meta strong { margin-left: auto; color: var(--accent); font-weight: 600; }
+.category-card { min-height: 280px; }
+.category-card h2 { font-size: 24px; }
+.set-card { min-height: 235px; }
+.set-card h2 { margin-top: 34px; }
+.category-hero .page-title { word-break: keep-all; }
 .exam-take-meta { display: flex; align-items: center; gap: 10px; margin: 32px 0 8px; }
 .exam-take-description { max-width: 560px; margin: 13px 0 34px; color: var(--muted); font-size: 13px; }
 .entry-card { margin-bottom: 12px; padding: 18px 20px; border: 1px solid var(--ink); }
+.question-number { margin: 0 0 12px; color: var(--accent); font: 600 10px/1 var(--mono); letter-spacing: .06em; }
 .meta-table { width: 100%; border-collapse: collapse; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .meta-table td { padding: 9px 0; font: 500 11px/1.5 var(--mono); }
 .meta-table tr + tr td { border-top: 1px solid var(--rule); }

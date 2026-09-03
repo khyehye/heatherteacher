@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pv-1",
+    "prompt": "It's 7:30. Please ___ and get out of bed.",
+    "options": [
+      "get up",
+      "find out",
+      "carry on",
+      "take care of"
+    ],
+    "correctIndex": 0,
+    "explanation": "get up은 잠자리에서 몸을 일으키는 동작을 뜻해요.",
+    "sourceEpisode": 106
+  },
+  {
+    "id": "pv-2",
+    "prompt": "I need to ___ why the computer stopped working.",
+    "options": [
+      "look forward to",
+      "find out",
+      "came across",
+      "put off"
+    ],
+    "correctIndex": 1,
+    "explanation": "find out은 알아내다, 발견하다는 뜻이에요.",
+    "sourceEpisode": 110
+  },
+  {
+    "id": "pv-3",
+    "prompt": "The report must ___ every expense.",
+    "options": [
+      "gets along with",
+      "came up against",
+      "account for",
+      "carry out"
+    ],
+    "correctIndex": 2,
+    "explanation": "account for는 이유나 수량을 설명하다라는 뜻이에요.",
+    "sourceEpisode": 114
+  },
+  {
+    "id": "pv-4",
+    "prompt": "I usually ___ before my alarm rings.",
+    "options": [
+      "look into",
+      "cut down on",
+      "bring up",
+      "wake up"
+    ],
+    "correctIndex": 3,
+    "explanation": "wake up은 잠에서 깨는 상태 변화를 말해요.",
+    "sourceEpisode": 121
+  },
+  {
+    "id": "pv-5",
+    "prompt": "We ___ seeing you again next month.",
+    "options": [
+      "look forward to",
+      "come up with",
+      "do away with",
+      "broke down"
+    ],
+    "correctIndex": 0,
+    "explanation": "look forward to 뒤에는 명사나 동명사가 와요.",
+    "sourceEpisode": 125
+  },
+  {
+    "id": "pv-6",
+    "prompt": "The new policy may ___ major changes.",
+    "options": [
+      "take care of",
+      "bring about",
+      "dwell on",
+      "break up"
+    ],
+    "correctIndex": 1,
+    "explanation": "bring about은 어떤 결과나 변화를 초래하다는 뜻이에요.",
+    "sourceEpisode": 129
+  },
+  {
+    "id": "pv-7",
+    "prompt": "It's cold outside, so ___ your coat.",
+    "options": [
+      "put off",
+      "fall back on",
+      "put on",
+      "called off"
+    ],
+    "correctIndex": 2,
+    "explanation": "put on은 옷을 입는 동작을 나타내요.",
+    "sourceEpisode": 136
+  },
+  {
+    "id": "pv-8",
+    "prompt": "Mina ___ all her classmates.",
+    "options": [
+      "carry out",
+      "get around",
+      "check in",
+      "gets along with"
+    ],
+    "correctIndex": 3,
+    "explanation": "get along with는 누구와 잘 지내다는 뜻이에요.",
+    "sourceEpisode": 140
+  },
+  {
+    "id": "pv-9",
+    "prompt": "Despite the noise, she decided to ___ working.",
+    "options": [
+      "carry on",
+      "bring up",
+      "hold back",
+      "get up"
+    ],
+    "correctIndex": 0,
+    "explanation": "carry on은 하던 일을 계속하다는 뜻이에요.",
+    "sourceEpisode": 144
+  },
+  {
+    "id": "pv-10",
+    "prompt": "Please ___ your shoes at the door.",
+    "options": [
+      "broke down",
+      "take off",
+      "live up to",
+      "wake up"
+    ],
+    "correctIndex": 1,
+    "explanation": "take off는 옷이나 신발을 벗다는 뜻이에요.",
+    "sourceEpisode": 151
+  }
+]

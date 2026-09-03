@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ex-1",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hi, I'm Jina. Nice to meet you."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Nice to meet you, too.",
+      "I'm full.",
+      "Never mind.",
+      "Take care of it."
+    ],
+    "correctIndex": 0,
+    "explanation": "처음 만난 사람의 인사에는 Nice to meet you, too.라고 답해요.",
+    "sourceEpisode": 112
+  },
+  {
+    "id": "ex-2",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Should we take the bus or walk?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I'm starving.",
+      "It's up to you.",
+      "Long time no see.",
+      "It rings a bell."
+    ],
+    "correctIndex": 1,
+    "explanation": "상대에게 결정을 맡길 때 It's up to you.라고 해요.",
+    "sourceEpisode": 116
+  },
+  {
+    "id": "ex-3",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Could you tell me why you're contacting us?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "What's up with you?",
+      "I'm just looking.",
+      "I am writing to inform you that the schedule has changed.",
+      "Let's play it by ear."
+    ],
+    "correctIndex": 2,
+    "explanation": "격식 있는 이메일 목적을 밝힐 때 I am writing to inform you that~을 써요.",
+    "sourceEpisode": 120
+  },
+  {
+    "id": "ex-4",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hey, Minho! What's up?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "You're welcome.",
+      "That's too expensive.",
+      "I couldn't agree more.",
+      "Not much. How about you?"
+    ],
+    "correctIndex": 3,
+    "explanation": "What's up?은 안부를 가볍게 묻는 표현이에요.",
+    "sourceEpisode": 127
+  },
+  {
+    "id": "ex-5",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I'm sorry I mentioned it."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Never mind.",
+      "Break a leg!",
+      "It's on me.",
+      "I'm running late."
+    ],
+    "correctIndex": 0,
+    "explanation": "이미 지나간 일을 신경 쓰지 말라는 뜻으로 Never mind.라고 해요.",
+    "sourceEpisode": 131
+  },
+  {
+    "id": "ex-6",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you send the revised file today?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Whatever works.",
+      "I would appreciate it if you could give me until tomorrow.",
+      "I'm just looking.",
+      "Long time no see."
+    ],
+    "correctIndex": 1,
+    "explanation": "정중하게 부탁할 때 I would appreciate it if~를 사용할 수 있어요.",
+    "sourceEpisode": 135
+  },
+  {
+    "id": "ex-7",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Would you like some more pasta?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, thanks. ___"
+      }
+    ],
+    "options": [
+      "I'm starving.",
+      "I'm on the fence.",
+      "I'm full.",
+      "I'm all ears."
+    ],
+    "correctIndex": 2,
+    "explanation": "배가 부르다고 말할 때 I'm full.이라고 해요.",
+    "sourceEpisode": 142
+  },
+  {
+    "id": "ex-8",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "This policy should be changed immediately."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I couldn't help it.",
+      "Don't mention it.",
+      "It's not my cup.",
+      "I couldn't agree more."
+    ],
+    "correctIndex": 3,
+    "explanation": "상대의 의견에 전적으로 동의할 때 I couldn't agree more.라고 해요.",
+    "sourceEpisode": 146
+  },
+  {
+    "id": "ex-9",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Do you agree with the director's proposal?"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "With all due respect, I have some concerns.",
+      "What's up?",
+      "Make yourself at home.",
+      "It's on me."
+    ],
+    "correctIndex": 0,
+    "explanation": "상대에 대한 존중을 유지하며 반대 의견을 낼 때 With all due respect를 써요.",
+    "sourceEpisode": 150
+  },
+  {
+    "id": "ex-10",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I have to go now. See you tomorrow!"
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "I'm full!",
+      "Take care!",
+      "That's on you!",
+      "Never a mind!"
+    ],
+    "correctIndex": 1,
+    "explanation": "헤어질 때 상대의 안녕을 빌며 Take care!라고 할 수 있어요.",
+    "sourceEpisode": 157
+  }
+]

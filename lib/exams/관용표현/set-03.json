@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ex-21",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "We only have five minutes."
+      },
+      {
+        "speaker": "B",
+        "text": "Okay, ___"
+      }
+    ],
+    "options": [
+      "let's cut to the chase.",
+      "let's beat around the bush.",
+      "let's play by the cup.",
+      "let's pull cold feet."
+    ],
+    "correctIndex": 0,
+    "explanation": "핵심으로 바로 들어가자는 뜻으로 cut to the chase를 써요.",
+    "sourceEpisode": 210
+  },
+  {
+    "id": "ex-22",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can I help you find something?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, thanks. ___"
+      }
+    ],
+    "options": [
+      "I'm just starving.",
+      "I'm just looking.",
+      "I'm just agreeing.",
+      "I'm just informing."
+    ],
+    "correctIndex": 1,
+    "explanation": "매장에서 둘러보기만 한다고 말할 때 I'm just looking.이라고 해요.",
+    "sourceEpisode": 217
+  },
+  {
+    "id": "ex-23",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Do you want to watch a horror movie?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, thanks. ___"
+      }
+    ],
+    "options": [
+      "It's not on my court.",
+      "It's not my cold feet.",
+      "It's not my cup of tea.",
+      "It's not at my home."
+    ],
+    "correctIndex": 2,
+    "explanation": "취향이 아니라고 말할 때 not my cup of tea를 써요.",
+    "sourceEpisode": 221
+  },
+  {
+    "id": "ex-24",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "The prototype failed completely."
+      },
+      {
+        "speaker": "B",
+        "text": "Then we need to ___"
+      }
+    ],
+    "options": [
+      "go back to the ball court.",
+      "go back to the tea cup.",
+      "go back to cold feet.",
+      "go back to the drawing board."
+    ],
+    "correctIndex": 3,
+    "explanation": "처음부터 계획을 다시 세울 때 go back to the drawing board라고 해요.",
+    "sourceEpisode": 225
+  },
+  {
+    "id": "ex-25",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "This jacket is $300."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "That's too expensive.",
+      "That's too starving.",
+      "That's too welcome.",
+      "That's too looking."
+    ],
+    "correctIndex": 0,
+    "explanation": "가격이 지나치게 비싸다고 말할 때 That's too expensive.라고 해요.",
+    "sourceEpisode": 232
+  },
+  {
+    "id": "ex-26",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "These boxes are really heavy."
+      },
+      {
+        "speaker": "B",
+        "text": "___"
+      }
+    ],
+    "options": [
+      "Let me cut the corners.",
+      "Let me give you a hand.",
+      "Let me ring a bell.",
+      "Let me go dutch."
+    ],
+    "correctIndex": 1,
+    "explanation": "도움을 제안할 때 give you a hand를 써요.",
+    "sourceEpisode": 236
+  },
+  {
+    "id": "ex-27",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Should we invest all our money in one company?"
+      },
+      {
+        "speaker": "B",
+        "text": "No. We shouldn't ___"
+      }
+    ],
+    "options": [
+      "hit the nail on the head.",
+      "play it by our ear.",
+      "put all our eggs in one basket.",
+      "make ourselves at home."
+    ],
+    "correctIndex": 2,
+    "explanation": "위험을 한곳에 집중하지 말라는 뜻의 표현이에요.",
+    "sourceEpisode": 240
+  },
+  {
+    "id": "ex-28",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Are you ready to order?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. ___"
+      }
+    ],
+    "options": [
+      "Can I be the chicken sandwich?",
+      "Can I do the chicken sandwich?",
+      "Can I take at the chicken sandwich?",
+      "Can I have the chicken sandwich?"
+    ],
+    "correctIndex": 3,
+    "explanation": "음식을 주문할 때 Can I have~?를 자연스럽게 사용해요.",
+    "sourceEpisode": 247
+  },
+  {
+    "id": "ex-29",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How did they finish so quickly?"
+      },
+      {
+        "speaker": "B",
+        "text": "They ___ and skipped several safety checks."
+      }
+    ],
+    "options": [
+      "cut corners",
+      "broke legs",
+      "rang bells",
+      "went dutch"
+    ],
+    "correctIndex": 0,
+    "explanation": "시간이나 비용을 아끼려고 필요한 절차를 생략하는 것은 cut corners예요.",
+    "sourceEpisode": 251
+  },
+  {
+    "id": "ex-30",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Working from home gives freedom but can feel isolating."
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, it's ___"
+      }
+    ],
+    "options": [
+      "a bell and a court.",
+      "a blessing and a curse.",
+      "a cup and a basket.",
+      "a nail and a board."
+    ],
+    "correctIndex": 1,
+    "explanation": "좋은 점과 나쁜 점을 동시에 가진 것은 a blessing and a curse라고 해요.",
+    "sourceEpisode": 255
+  }
+]

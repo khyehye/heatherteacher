@@ -1,0 +1,132 @@
+[
+  {
+    "id": "pv-21",
+    "prompt": "The company plans to ___ unnecessary paperwork.",
+    "options": [
+      "do away with",
+      "carry out",
+      "get around",
+      "check in"
+    ],
+    "correctIndex": 0,
+    "explanation": "do away with는 불필요한 것을 없애다는 뜻이에요.",
+    "sourceEpisode": 204
+  },
+  {
+    "id": "pv-22",
+    "prompt": "___ the picture on the wall.",
+    "options": [
+      "bring up",
+      "Look at",
+      "hold back",
+      "get up"
+    ],
+    "correctIndex": 1,
+    "explanation": "look at은 시선을 두어 보다라는 뜻이에요.",
+    "sourceEpisode": 211
+  },
+  {
+    "id": "pv-23",
+    "prompt": "The researchers will ___ a new experiment.",
+    "options": [
+      "broke down",
+      "live up to",
+      "carry out",
+      "wake up"
+    ],
+    "correctIndex": 2,
+    "explanation": "carry out은 계획이나 실험을 수행하다는 뜻이에요.",
+    "sourceEpisode": 215
+  },
+  {
+    "id": "pv-24",
+    "prompt": "Try not to ___ your past mistakes.",
+    "options": [
+      "break up",
+      "look down on",
+      "put on",
+      "dwell on"
+    ],
+    "correctIndex": 3,
+    "explanation": "dwell on은 좋지 않은 일을 오래 생각하다는 뜻이에요.",
+    "sourceEpisode": 219
+  },
+  {
+    "id": "pv-25",
+    "prompt": "My aunt ___ me when my parents are away.",
+    "options": [
+      "looks after",
+      "called off",
+      "find out",
+      "take off"
+    ],
+    "correctIndex": 0,
+    "explanation": "look after는 사람이나 동물을 돌보다는 뜻이에요.",
+    "sourceEpisode": 226
+  },
+  {
+    "id": "pv-26",
+    "prompt": "He didn't want to ___ the sensitive topic.",
+    "options": [
+      "check in",
+      "bring up",
+      "look forward to",
+      "turn on"
+    ],
+    "correctIndex": 1,
+    "explanation": "bring up은 대화에서 화제를 꺼내다는 뜻이에요.",
+    "sourceEpisode": 230
+  },
+  {
+    "id": "pv-27",
+    "prompt": "In an emergency, we can ___ our savings.",
+    "options": [
+      "get up",
+      "gets along with",
+      "fall back on",
+      "turn off"
+    ],
+    "correctIndex": 2,
+    "explanation": "fall back on은 어려울 때 무언가에 의지하다는 뜻이에요.",
+    "sourceEpisode": 234
+  },
+  {
+    "id": "pv-28",
+    "prompt": "Don't ___ just because the problem is difficult.",
+    "options": [
+      "wake up",
+      "look into",
+      "looking for",
+      "give up"
+    ],
+    "correctIndex": 3,
+    "explanation": "give up은 하던 일을 포기하다는 뜻이에요.",
+    "sourceEpisode": 241
+  },
+  {
+    "id": "pv-29",
+    "prompt": "My car ___ on the way to school.",
+    "options": [
+      "broke down",
+      "put on",
+      "come up with",
+      "Look at"
+    ],
+    "correctIndex": 0,
+    "explanation": "break down은 기계나 차량이 고장 나다는 뜻이에요.",
+    "sourceEpisode": 245
+  },
+  {
+    "id": "pv-30",
+    "prompt": "We found a way to ___ the rule.",
+    "options": [
+      "take off",
+      "get around",
+      "take care of",
+      "looks after"
+    ],
+    "correctIndex": 1,
+    "explanation": "get around은 문제나 규칙을 교묘히 피하다는 뜻이에요.",
+    "sourceEpisode": 249
+  }
+]

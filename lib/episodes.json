@@ -4812,7 +4812,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/321",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "322": {
     "globalId": 322,
@@ -4827,7 +4827,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/322",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "323": {
     "globalId": 323,
@@ -4842,7 +4842,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/323",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "324": {
     "globalId": 324,
@@ -4857,7 +4857,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/324",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "325": {
     "globalId": 325,
@@ -4872,7 +4872,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/325",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "326": {
     "globalId": 326,
@@ -4887,7 +4887,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/326",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "327": {
     "globalId": 327,
@@ -4902,7 +4902,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/327",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "328": {
     "globalId": 328,
@@ -4917,7 +4917,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/328",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "329": {
     "globalId": 329,
@@ -4932,7 +4932,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/329",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "330": {
     "globalId": 330,
@@ -4947,7 +4947,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/330",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "331": {
     "globalId": 331,
@@ -4962,7 +4962,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/331",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "332": {
     "globalId": 332,
@@ -4977,7 +4977,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/332",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "333": {
     "globalId": 333,
@@ -4992,7 +4992,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/333",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "334": {
     "globalId": 334,
@@ -5007,7 +5007,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/334",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "335": {
     "globalId": 335,
@@ -5022,7 +5022,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/335",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "336": {
     "globalId": 336,
@@ -5037,7 +5037,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/336",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "337": {
     "globalId": 337,
@@ -5052,7 +5052,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/337",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "338": {
     "globalId": 338,
@@ -5067,7 +5067,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/338",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "339": {
     "globalId": 339,
@@ -5082,7 +5082,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/339",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "340": {
     "globalId": 340,
@@ -5097,7 +5097,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/340",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "341": {
     "globalId": 341,
@@ -5112,7 +5112,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/341",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "342": {
     "globalId": 342,
@@ -5127,7 +5127,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/342",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "343": {
     "globalId": 343,
@@ -5142,7 +5142,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/343",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "344": {
     "globalId": 344,
@@ -5157,7 +5157,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/344",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "345": {
     "globalId": 345,
@@ -5172,7 +5172,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/345",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "346": {
     "globalId": 346,
@@ -5187,7 +5187,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/346",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "347": {
     "globalId": 347,
@@ -5202,7 +5202,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/347",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "348": {
     "globalId": 348,
@@ -5217,7 +5217,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/348",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "349": {
     "globalId": 349,
@@ -5232,7 +5232,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/349",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "350": {
     "globalId": 350,
@@ -5247,7 +5247,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/350",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "351": {
     "globalId": 351,
@@ -5262,7 +5262,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/351",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "352": {
     "globalId": 352,
@@ -5277,7 +5277,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/352",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "353": {
     "globalId": 353,
@@ -5292,7 +5292,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/353",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "354": {
     "globalId": 354,
@@ -5307,7 +5307,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/354",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "355": {
     "globalId": 355,
@@ -5322,7 +5322,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/355",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "356": {
     "globalId": 356,
@@ -5337,7 +5337,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/356",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "357": {
     "globalId": 357,
@@ -5352,7 +5352,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/357",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "358": {
     "globalId": 358,
@@ -5367,7 +5367,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/358",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "359": {
     "globalId": 359,
@@ -5382,7 +5382,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/359",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "360": {
     "globalId": 360,
@@ -5397,7 +5397,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/360",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "361": {
     "globalId": 361,
@@ -5412,7 +5412,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/361",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "362": {
     "globalId": 362,
@@ -5427,7 +5427,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/362",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "363": {
     "globalId": 363,
@@ -5442,7 +5442,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/363",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "364": {
     "globalId": 364,
@@ -5457,7 +5457,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/364",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "365": {
     "globalId": 365,
@@ -5472,7 +5472,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/365",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "366": {
     "globalId": 366,
@@ -5487,7 +5487,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/366",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "367": {
     "globalId": 367,
@@ -5502,7 +5502,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/367",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "368": {
     "globalId": 368,
@@ -5517,7 +5517,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/368",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "369": {
     "globalId": 369,
@@ -5532,7 +5532,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/369",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "370": {
     "globalId": 370,
@@ -5547,7 +5547,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/370",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "371": {
     "globalId": 371,
@@ -5562,7 +5562,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/371",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "372": {
     "globalId": 372,
@@ -5577,7 +5577,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/372",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "373": {
     "globalId": 373,
@@ -5592,7 +5592,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/373",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "374": {
     "globalId": 374,
@@ -5607,7 +5607,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/374",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "375": {
     "globalId": 375,
@@ -5622,7 +5622,7 @@
     "status": "published",
     "slideCount": 5,
     "imageFolder": "images/375",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "376": {
     "globalId": 376,
@@ -5637,7 +5637,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/376",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "377": {
     "globalId": 377,
@@ -5652,7 +5652,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/377",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "378": {
     "globalId": 378,
@@ -5667,7 +5667,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/378",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "379": {
     "globalId": 379,
@@ -5682,7 +5682,7 @@
     "status": "published",
     "slideCount": 6,
     "imageFolder": "images/379",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "380": {
     "globalId": 380,
@@ -5697,7 +5697,7 @@
     "status": "published",
     "slideCount": 7,
     "imageFolder": "images/380",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "381": {
     "globalId": 381,
@@ -5709,10 +5709,10 @@
     "category": "오답노트",
     "level": "Advanced",
     "keyword": "as if vs as though",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/381",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "382": {
     "globalId": 382,
@@ -5724,10 +5724,10 @@
     "category": "관용표현",
     "level": "Basic",
     "keyword": "It's a piece of cake",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 5,
     "imageFolder": "images/382",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "383": {
     "globalId": 383,
@@ -5739,10 +5739,10 @@
     "category": "수능어법유형",
     "level": "Intermediate",
     "keyword": "조동사 심화(should have p.p.) 오류",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/383",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "384": {
     "globalId": 384,
@@ -5754,10 +5754,10 @@
     "category": "구동사",
     "level": "Advanced",
     "keyword": "set off",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 7,
     "imageFolder": "images/384",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "385": {
     "globalId": 385,
@@ -5769,10 +5769,10 @@
     "category": "영작패턴",
     "level": "Basic",
     "keyword": "빈도부사 넣어 문장 완성",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/385",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "386": {
     "globalId": 386,
@@ -5784,10 +5784,10 @@
     "category": "관용표현",
     "level": "Intermediate",
     "keyword": "It's a long story",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 5,
     "imageFolder": "images/386",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "387": {
     "globalId": 387,
@@ -5799,10 +5799,10 @@
     "category": "수능어법유형",
     "level": "Advanced",
     "keyword": "가정법 도치(Were it not for) 함정",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/387",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "388": {
     "globalId": 388,
@@ -5814,10 +5814,10 @@
     "category": "오답노트",
     "level": "Basic",
     "keyword": "wear vs put on",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/388",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "389": {
     "globalId": 389,
@@ -5829,10 +5829,10 @@
     "category": "영작패턴",
     "level": "Intermediate",
     "keyword": "관계부사 when으로 문장 합치기",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/389",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "390": {
     "globalId": 390,
@@ -5844,10 +5844,10 @@
     "category": "관용표현",
     "level": "Advanced",
     "keyword": "It could be argued that~",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/390",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "391": {
     "globalId": 391,
@@ -5859,10 +5859,10 @@
     "category": "구동사",
     "level": "Basic",
     "keyword": "hang up",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 7,
     "imageFolder": "images/391",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "392": {
     "globalId": 392,
@@ -5874,10 +5874,10 @@
     "category": "오답노트",
     "level": "Intermediate",
     "keyword": "used to vs be used to vs get used to",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/392",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "393": {
     "globalId": 393,
@@ -5889,10 +5889,10 @@
     "category": "영작패턴",
     "level": "Advanced",
     "keyword": "완료분사구문 영작",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/393",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "394": {
     "globalId": 394,
@@ -5904,10 +5904,10 @@
     "category": "수능어법유형",
     "level": "Basic",
     "keyword": "의문사 의문문 어순 오류",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/394",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "395": {
     "globalId": 395,
@@ -5919,10 +5919,10 @@
     "category": "구동사",
     "level": "Intermediate",
     "keyword": "give in",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 7,
     "imageFolder": "images/395",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "396": {
     "globalId": 396,
@@ -5934,10 +5934,10 @@
     "category": "오답노트",
     "level": "Advanced",
     "keyword": "in case vs if",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/396",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "397": {
     "globalId": 397,
@@ -5949,10 +5949,10 @@
     "category": "관용표현",
     "level": "Basic",
     "keyword": "Break the ice",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/397",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "398": {
     "globalId": 398,
@@ -5964,10 +5964,10 @@
     "category": "수능어법유형",
     "level": "Intermediate",
     "keyword": "도치구문 기초(부정어) 어순 오류",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/398",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "399": {
     "globalId": 399,
@@ -5979,10 +5979,10 @@
     "category": "구동사",
     "level": "Advanced",
     "keyword": "stem from",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 7,
     "imageFolder": "images/399",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "400": {
     "globalId": 400,
@@ -5994,10 +5994,10 @@
     "category": "영작패턴",
     "level": "Basic",
     "keyword": "some/any 구별해 문장 완성",
-    "status": "planned",
-    "slideCount": 0,
+    "status": "published",
+    "slideCount": 6,
     "imageFolder": "images/400",
-    "contentFile": null
+    "contentFile": "content.md"
   },
   "401": {
     "globalId": 401,
